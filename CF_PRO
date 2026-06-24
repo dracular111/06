@@ -76,8 +76,8 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"chickenhpx000", "chickenhpx001"},
     ["Items To Mail"] = {
         ["Gear"] = {
-            ["Super Sprinkler"] = {Amount = 1, To = {"St0rmIuCelestial5125", "Echos1SkyR183812", "TitannbDragonWbLegen", "XzCraze77SwitchX7Wra", "Roguea3Pixelx3Sparkl", "NovaUVDancerp", "BlazeRdShadeg111734", "Xz_SwitchIHSkat3rrHP", "XzFr0st7rSt0rmazX116", "Stormh1BearM", "UltraL1GlideD182971"}},
-            ["Super Watering Can"] = {Amount = 1, To = {"St0rmIuCelestial5125", "Echos1SkyR183812", "TitannbDragonWbLegen", "XzCraze77SwitchX7Wra", "Roguea3Pixelx3Sparkl", "NovaUVDancerp", "BlazeRdShadeg111734", "Xz_SwitchIHSkat3rrHP", "XzFr0st7rSt0rmazX116", "Stormh1BearM", "UltraL1GlideD182971"}},
+            ["Super Sprinkler"] = {Amount = 1, To = {"St0rmIuCelestial5125", "Echos1SkyR183812", "TitannbDragonWbLegen", "Roguea3Pixelx3Sparkl", "NovaUVDancerp", "BlazeRdShadeg111734", "Xz_SwitchIHSkat3rrHP", "XzFr0st7rSt0rmazX116", "Stormh1BearM", "UltraL1GlideD182971"}},
+            ["Super Watering Can"] = {Amount = 1, To = {"St0rmIuCelestial5125", "Echos1SkyR183812", "TitannbDragonWbLegen", "Roguea3Pixelx3Sparkl", "NovaUVDancerp", "BlazeRdShadeg111734", "Xz_SwitchIHSkat3rrHP", "XzFr0st7rSt0rmazX116", "Stormh1BearM", "UltraL1GlideD182971"}},
         },
     },
     ["Claim Mail"] = true,
