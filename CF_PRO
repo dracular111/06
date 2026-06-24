@@ -73,7 +73,7 @@ getgenv().UserConfig = {
     ["Webhook Seed Name"] = {"Dragon's Breath"},
     ["Webhook Note"] = "",
     ["Discord ID"] = "",
-    ["Mail To Username"] = {"chickenhpx000", "chickenhpx001"},
+    ["Mail To Username"] = {""},
     ["Items To Mail"] = {
         ["Gear"] = {
             ["Super Sprinkler"] = {Amount = 1, To = {"St0rmIuCelestial5125", "Echos1SkyR183812", "TitannbDragonWbLegen", "Roguea3Pixelx3Sparkl", "NovaUVDancerp", "BlazeRdShadeg111734", "Xz_SwitchIHSkat3rrHP", "XzFr0st7rSt0rmazX116", "Stormh1BearM", "UltraL1GlideD182971"}},
