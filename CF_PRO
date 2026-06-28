@@ -8,12 +8,41 @@ getgenv().UserConfig = {
     ["Auto Plant Seed"] = true,
 
     ["Limit Plant Seed"] = {
-        ["Carrot"] = 5,
+        ["Carrot"] = 4, 
+        --["Strawberry"] = 4,
+        --["Blueberry"] = 4,
+        --Uncommon--
+        ["Tulip"] = 10,
+        ["Tomato"] = 4,
+        ["Apple"] = 4,
+        --Rare--
+        ["Bamboo"] = 999,
+        ["Corn"] = 5,
+        ["Cactus"] = 5,
+        ["Pineapple"] = 5,
+        --Epic--
+        ["Mushroom"] = 999,
+        ["Green Bean"] = 200,
+        ["Banana"] = 200,
+        ["Grape"] = 200,
+        ["Coconut"] = 200,
+        ["Mango"] = 200,
+        --Legendary--
+        ["Dragon Fruit"] = 200,
+        ["Acorn"] = 200,
+        ["Cherry"] = 999,
+        ["Sunflower"] = 999,
+        --["Venus Fly Trap"] = 10,
+        --["Pomegranate"] = 10,
+        --["Poison Apple"] = 10,
+        --["Venom Spitter"] = 10,
+        --["Moon Bloom"] = 10,
+        --["Dragon's Breath"] = 10,
     },
 
     ["Limit Buy Seed"] = {        
-        ["Carrot"] = 2, 
-        ["Tulip"] = 10,
+        ["Carrot"] = 5, 
+        ["Tulip"] = 20,
         ["Apple"] = 5,
         ["Corn"] = 5,
         ["Cactus"] = 5,
@@ -21,9 +50,9 @@ getgenv().UserConfig = {
 
         ["Bamboo"] = 9999,
         ["Mushroom"] = 9999,
-        ["Green Bean"] = 10,
-        ["Dragon Fruit"] = 50,
-        ["Cherry"] = 10,
+        ["Green Bean"] = 100,
+        ["Dragon Fruit"] = 100,
+        ["Cherry"] = 200,
         --["Moon Bloom"] = 50000,
         --["Dragon's Breath"] = 50000,
     },
@@ -94,7 +123,7 @@ getgenv().UserConfig = {
         "Bamboo", -- Chỉ thu hoạch Bamboo đột biến (bất kỳ loại đột biến nào)
         "Mushroom",
     },
-    ["Auto Plant"] = true,
+    ["Auto Plant"] = false,
     ["Limit Auto Plant"] = 700,
 
     ["Blacklist Shovel"] = {
