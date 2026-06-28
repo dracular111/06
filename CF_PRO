@@ -22,11 +22,11 @@ getgenv().UserConfig = {
         ["Pineangle"] = 5,
         --Epic--
         ["Mushroom"] = 999,
-        ["Green Bean"] = 200,
-        ["Banana"] = 150,
-        ["Grape"] = 200,
-        ["Coconut"] = 200,
-        ["Mango"] = 200,
+        ["Green Bean"] = 150,
+        ["Banana"] = 100,
+        ["Grape"] = 100,
+        ["Coconut"] = 100,
+        ["Mango"] = 150,
         --Legendary--
         ["Dragon Fruit"] = 200,
         ["Acorn"] = 200,
