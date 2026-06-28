@@ -36,7 +36,8 @@ getgenv().UserConfig = {
         --["Pomegranate"] = 10,
         --["Poison Apple"] = 10,
         --["Venom Spitter"] = 10,
-        --["Moon Bloom"] = 10,
+        ["Moon Bloom"] = 10,
+        --["Hypno Bloom"] = 100,
         --["Dragon's Breath"] = 10,
     },
 
@@ -103,8 +104,7 @@ getgenv().UserConfig = {
         },
     },
 
-    ["Webhook URL"] = "https://discord.com/api/webhooks/1515430104044535828/Rzsf-cDZyPAyEwdEV6W-5L0mJ0I1gzuccKelLEI6T_6KNfTBdk3fyhAG51gEifsYNwhq",
-
+    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1515430104044535828/Rzsf-cDZyPAyEwdEV6W-5L0mJ0I1gzuccKelLEI6T_6KNfTBdk3fyhAG51gEifsYNwhq",
     ["Webhook Pet Name"] = {
         "Golden Dragonfly",
         "Unicorn",
@@ -130,6 +130,7 @@ getgenv().UserConfig = {
         "Gold",
 
         "Dragon's Breath",
+        "Hypno Bloom",
         "Moon Bloom",
         "Venom Spitter",
         "Poison Apple",
@@ -170,6 +171,7 @@ getgenv().UserConfig = {
         --"Gold",
 
         "Dragon's Breath",
+        "Hypno Bloom",
         "Moon Bloom",
         "Venom Spitter",
         "Poison Apple",
