@@ -12,7 +12,7 @@ getgenv().UserConfig = {
         --["Strawberry"] = 4,
         --["Blueberry"] = 4,
         --Uncommon--
-        ["Tulip"] = 10,
+        ["Tulip"] = 5,
         ["Tomato"] = 4,
         ["Apple"] = 4,
         --Rare--
@@ -28,22 +28,22 @@ getgenv().UserConfig = {
         ["Coconut"] = 100,
         ["Mango"] = 150,
         --Legendary--
-        ["Dragon Fruit"] = 200,
-        ["Acorn"] = 200,
-        ["Cherry"] = 999,
-        ["Sunflower"] = 999,
+        ["Dragon Fruit"] = 100,
+        ["Acorn"] = 100,
+        ["Cherry"] = 150,
+        ["Sunflower"] = 150,
         --["Venus Fly Trap"] = 10,
         --["Pomegranate"] = 10,
         --["Poison Apple"] = 10,
         --["Venom Spitter"] = 10,
-        ["Moon Bloom"] = 10,
+        --["Moon Bloom"] = 10,
         --["Hypno Bloom"] = 100,
         --["Dragon's Breath"] = 10,
     },
 
     ["Limit Buy Seed"] = {        
         ["Carrot"] = 5, 
-        ["Tulip"] = 20,
+        ["Tulip"] = 5,
         ["Apple"] = 5,
         ["Corn"] = 5,
         ["Cactus"] = 5,
@@ -51,10 +51,10 @@ getgenv().UserConfig = {
 
         ["Bamboo"] = 9999,
         ["Mushroom"] = 9999,
-        ["Green Bean"] = 50,
+        ["Green Bean"] = 20,
         ["Dragon Fruit"] = 100,
         ["Cherry"] = 100,
-        --["Moon Bloom"] = 50000,
+        ["Moon Bloom"] = 50000,
         --["Dragon's Breath"] = 50000,
     },
 
