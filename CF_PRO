@@ -32,6 +32,8 @@ getgenv().UserConfig = {
         ["Acorn"] = 200,
         ["Cherry"] = 999,
         ["Sunflower"] = 999,
+        ["Sunflower"] = 999,
+        ["Gold"] = 999,
         --["Venus Fly Trap"] = 10,
         --["Pomegranate"] = 10,
         --["Poison Apple"] = 10,
@@ -58,7 +60,7 @@ getgenv().UserConfig = {
     },
 
     ["Favorite"] = {
-        ["Horned Melon"] = {"Rainbow", "Gold"},
+        ["Horned Melon"] = {"Rainbow"},
     },
 
     ["Buy Pets"] = {
