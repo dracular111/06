@@ -177,8 +177,7 @@ getgenv().UserConfig = {
         "Poison Apple",
         "Pomegranate",
         "Venus Fly Trap",
-
-        --"Pineangle",
+        "Pineangle",
         --"Cactus",
         --"Corn",
         --"Apple",
