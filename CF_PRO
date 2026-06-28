@@ -23,7 +23,7 @@ getgenv().UserConfig = {
         --Epic--
         ["Mushroom"] = 999,
         ["Green Bean"] = 200,
-        ["Banana"] = 200,
+        ["Banana"] = 150,
         ["Grape"] = 200,
         ["Coconut"] = 200,
         ["Mango"] = 200,
