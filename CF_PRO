@@ -52,9 +52,9 @@ getgenv().UserConfig = {
 
         ["Bamboo"] = 9999,
         ["Mushroom"] = 9999,
-        ["Green Bean"] = 100,
+        ["Green Bean"] = 50,
         ["Dragon Fruit"] = 100,
-        ["Cherry"] = 200,
+        ["Cherry"] = 100,
         --["Moon Bloom"] = 50000,
         --["Dragon's Breath"] = 50000,
     },
