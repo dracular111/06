@@ -19,7 +19,7 @@ getgenv().UserConfig = {
         ["Bamboo"] = 999,
         ["Corn"] = 5,
         ["Cactus"] = 5,
-        ["Pineapple"] = 5,
+        ["Pineangle"] = 5,
         --Epic--
         ["Mushroom"] = 999,
         ["Green Bean"] = 200,
