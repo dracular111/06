@@ -32,8 +32,6 @@ getgenv().UserConfig = {
         ["Acorn"] = 200,
         ["Cherry"] = 999,
         ["Sunflower"] = 999,
-        ["Sunflower"] = 999,
-        ["Gold"] = 999,
         --["Venus Fly Trap"] = 10,
         --["Pomegranate"] = 10,
         --["Poison Apple"] = 10,
@@ -62,22 +60,20 @@ getgenv().UserConfig = {
     ["Favorite"] = {
         ["Horned Melon"] = {"Rainbow"},
     },
-
     ["Buy Pets"] = {
         ["Raccoon"] = 999,
         ["Unicorn"] = 999,
         ["Golden Dragonfly"] = 999,
         ["Black Dragon"] = 999,
 
-        --["Frog"] = {Huge = 99, Rainbow = 99},
-
-        ["Bunny"] = {Huge = 99, Rainbow = 99},
-        ["Owl"] = {Huge = 99, Rainbow = 99},
-        ["Deer"] = {Normal = 6, Big = 6, Huge = 6, Rainbow = 6},
-        ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Frog"] = {Big = 99, Huge = 99, Rainbow = 99, Mega = 99},
+        ["Bunny"] = {Big = 99, Huge = 99, Rainbow = 99, Mega = 99},
+        ["Owl"] = {Huge = 99, Rainbow = 99, Mega = 99},
+        ["Deer"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99, Mega = 99},
+        ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99, Mega = 99},
+        ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99, Mega = 99},
+        ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99, Mega = 99},
+        ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99, Mega = 99},
     },
 
     ["Equip Pets"] = {
