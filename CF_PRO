@@ -19,10 +19,10 @@ getgenv().UserConfig = {
         ["Gold"] = 999,
         ["Mega"] = 999,
         ["Rainbow"] = 999,
-        ["Sunflower"] = 150,
-        ["Cherry"] = 150,
+        ["Sunflower"] = 200,
+        ["Cherry"] = 200,
         ["Acorn"] = 100,
-        ["Dragon Fruit"] = 100,
+        ["Dragon Fruit"] = 150,
 
         --Epic--
         ["Mango"] = 150,
