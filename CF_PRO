@@ -27,21 +27,21 @@ getgenv().UserConfig = {
         --Epic--
         ["Mango"] = 150,
         ["Coconut"] = 100,
-        ["Grape"] = 50,
-        ["Banana"] = 50,
+        ["Grape"] = 100,
+        ["Banana"] = 100,
         ["Green Bean"] = 20,
         ["Mushroom"] = 999,
 
         --Rare--
         ["Bamboo"] = 999,
-        ["Pineapple"] = 5,
-        ["Cactus"] = 2,
-        ["Corn"] = 2,
+        ["Pineapple"] = 20,
+        ["Cactus"] = 20,
+        ["Corn"] = 20,
 
         --Uncommon--
-        ["Apple"] = 2,
-        ["Tomato"] = 2,
-        ["Tulip"] = 5,
+        ["Apple"] = 20,
+        ["Tomato"] = 20,
+        ["Tulip"] = 20,
 
         --["Blueberry"] = 4,
         --["Strawberry"] = 4,
