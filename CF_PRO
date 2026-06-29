@@ -99,7 +99,7 @@ getgenv().UserConfig = {
 
     ["Gears"] = {
         ["Buy Gear"] = {
-            "Super Sprinkler",
+            --"Super Sprinkler",
             "Super Watering Can",
         },
 
@@ -163,6 +163,8 @@ getgenv().UserConfig = {
         ["Corn"] = {"Rainbow", "Gold"},
         ["Apple"] = {"Rainbow", "Gold"},
         ["Tomato"] = {"Rainbow", "Gold"},
+        ["Strawberry"] = {"Rainbow", "Gold"},
+        ["Blueberry"] = {"Rainbow", "Gold"},
     },
 
     ["Shovel Plant Once"] = {
@@ -176,8 +178,6 @@ getgenv().UserConfig = {
     },
 
     ["Blacklist Seed"] = {
-        "Mega",
-        "Rainbow",
         "Dragon's Breath",
         "Hypno Bloom",
         "Moon Bloom",
