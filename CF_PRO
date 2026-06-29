@@ -82,7 +82,7 @@ getgenv().UserConfig = {
         ["Deer"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
         ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bee"] = {Huge = 99, Rainbow = 99},
-        ["Bear"] = {Big = 99, Big = 99, Huge = 99, Rainbow = 99},
+        ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
     },
 
@@ -153,7 +153,7 @@ getgenv().UserConfig = {
         "Coconut",
         "Grape",
         ["Green Bean"] = {"Rainbow", "Gold"},
-        ["Banana"] = {"Rainbow", "Gold"},,
+        ["Banana"] = {"Rainbow", "Gold"},
         "Mushroom",
         "Bamboo",
         ["Tulip"] = {"Rainbow", "Gold"},
