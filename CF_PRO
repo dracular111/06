@@ -128,7 +128,7 @@ getgenv().UserConfig = {
         "Secret",
     },
     ["Harvest Mutation Only"] = {
-        "Bamboo", -- Chỉ thu hoạch Bamboo đột biến (bất kỳ loại đột biến nào)
+        --"Bamboo", -- Chỉ thu hoạch Bamboo đột biến (bất kỳ loại đột biến nào)
         "Mushroom",
     },
     ["Auto Plant"] = false,
