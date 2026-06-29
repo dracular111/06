@@ -8,54 +8,59 @@ getgenv().UserConfig = {
     ["Auto Plant Seed"] = true,
 
     ["Limit Plant Seed"] = {
-        ["Carrot"] = 4, 
-        --["Strawberry"] = 4,
-        --["Blueberry"] = 4,
-        --Uncommon--
-        ["Tulip"] = 5,
-        ["Tomato"] = 4,
-        ["Apple"] = 4,
+        --Legendary--
+        --["Dragon's Breath"] = 10,
+        --["Hypno Bloom"] = 100,
+        --["Moon Bloom"] = 10,
+        --["Venom Spitter"] = 10,
+        --["Poison Apple"] = 10,
+        --["Pomegranate"] = 10,
+        --["Venus Fly Trap"] = 10,
+        ["Sunflower"] = 150,
+        ["Cherry"] = 150,
+        ["Acorn"] = 100,
+        ["Dragon Fruit"] = 100,
+
+        --Epic--
+        ["Mango"] = 150,
+        ["Coconut"] = 100,
+        ["Grape"] = 50,
+        ["Banana"] = 20,
+        ["Green Bean"] = 10,
+        ["Mushroom"] = 999,
+
         --Rare--
         ["Bamboo"] = 999,
-        ["Corn"] = 5,
+        ["Pineangle"] = 5,
         ["Cactus"] = 5,
-        ["Pineangle"] = 20,
-        --Epic--
-        ["Mushroom"] = 999,
-        ["Green Bean"] = 100,
-        ["Banana"] = 20,
-        ["Grape"] = 50,
-        ["Coconut"] = 100,
-        ["Mango"] = 150,
-        --Legendary--
-        ["Dragon Fruit"] = 100,
-        ["Acorn"] = 100,
-        ["Cherry"] = 150,
-        ["Sunflower"] = 150,
-        --["Venus Fly Trap"] = 10,
-        --["Pomegranate"] = 10,
-        --["Poison Apple"] = 10,
-        --["Venom Spitter"] = 10,
-        --["Moon Bloom"] = 10,
-        --["Hypno Bloom"] = 100,
-        --["Dragon's Breath"] = 10,
+        ["Corn"] = 5,
+
+        --Uncommon--
+        ["Apple"] = 4,
+        ["Tomato"] = 4,
+        ["Tulip"] = 5,
+
+        --["Blueberry"] = 4,
+        --["Strawberry"] = 4,
+        ["Carrot"] = 4,
     },
 
-    ["Limit Buy Seed"] = {        
-        ["Carrot"] = 5, 
-        ["Tulip"] = 5,
-        ["Apple"] = 5,
-        ["Corn"] = 5,
-        ["Cactus"] = 5,
-        ["Banana"] = 5,
-
-        ["Bamboo"] = 9999,
-        ["Mushroom"] = 9999,
-        ["Green Bean"] = 5,
-        ["Dragon Fruit"] = 100,
-        ["Cherry"] = 100,
-        ["Moon Bloom"] = 50000,
+    ["Limit Buy Seed"] = {
         --["Dragon's Breath"] = 50000,
+        ["Hypno Bloom"] = 100,
+        ["Moon Bloom"] = 50000,
+        ["Cherry"] = 100,
+        ["Dragon Fruit"] = 100,
+        ["Green Bean"] = 5,
+        ["Mushroom"] = 9999,
+        ["Bamboo"] = 9999,
+
+        ["Banana"] = 5,
+        ["Cactus"] = 5,
+        ["Corn"] = 5,
+        ["Apple"] = 5,
+        ["Tulip"] = 5,
+        ["Carrot"] = 5,
     },
 
     ["Favorite"] = {
