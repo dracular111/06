@@ -31,8 +31,7 @@ getgenv().UserConfig = {
         ["Mushroom"] = 999,
 
         --Rare--
-        ["Bamboo"] = 400,
-        ["Pineangle"] = 5,
+        ["Bamboo"] = 999,
         ["Pineapple"] = 5,
         ["Cactus"] = 2,
         ["Corn"] = 2,
@@ -174,7 +173,7 @@ getgenv().UserConfig = {
         "Apple",
         "Corn",
         "Cactus",
-        "Pineangle",
+        --"Pineapple",
     },
 
     ["Blacklist Seed"] = {
@@ -187,7 +186,7 @@ getgenv().UserConfig = {
         "Poison Apple",
         "Pomegranate",
         "Venus Fly Trap",
-        "Pineangle",
+        "Pineapple",
         --"Cactus",
         --"Corn",
         --"Apple",
