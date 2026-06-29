@@ -41,11 +41,11 @@ getgenv().UserConfig = {
         --Uncommon--
         ["Apple"] = 20,
         ["Tomato"] = 20,
-        ["Tulip"] = 20,
+        ["Tulip"] = 300,
 
         --["Blueberry"] = 4,
         --["Strawberry"] = 4,
-        ["Carrot"] = 2,
+        ["Carrot"] = 300,
     },
 
     ["Limit Buy Seed"] = {
@@ -62,8 +62,8 @@ getgenv().UserConfig = {
         ["Cactus"] = 5,
         ["Corn"] = 5,
         ["Apple"] = 5,
-        ["Tulip"] = 5,
-        ["Carrot"] = 2,
+        ["Tulip"] = 300,
+        ["Carrot"] = 200,
     },
 
     ["Favorite"] = {
