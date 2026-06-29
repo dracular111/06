@@ -46,7 +46,7 @@ getgenv().UserConfig = {
     },
 
     ["Limit Buy Seed"] = {
-        --["Dragon's Breath"] = 50000,
+        ["Dragon's Breath"] = 50000,
         ["Hypno Bloom"] = 100,
         ["Moon Bloom"] = 50000,
         ["Cherry"] = 100,
