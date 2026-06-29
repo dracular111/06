@@ -81,10 +81,10 @@ getgenv().UserConfig = {
         ["Turtle"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Frog"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bunny"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Owl"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Owl"] = {Big = 99, Huge = 99},
         ["Deer"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
         ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bee"] = {Huge = 99, Rainbow = 99},
+        ["Bee"] = {Big = 99, Huge = 99},
         ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
     },
@@ -101,6 +101,10 @@ getgenv().UserConfig = {
 
     ["Gears"] = {
         ["Buy Gear"] = {
+            "Common Sprinkler",
+            "Uncommon Sprinkler",
+            "Rare Sprinkler",
+            "Legendary Sprinkler",
             "Super Sprinkler",
             "Super Watering Can",
         },
