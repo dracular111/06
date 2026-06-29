@@ -16,6 +16,7 @@ getgenv().UserConfig = {
         --["Poison Apple"] = 10,
         --["Pomegranate"] = 10,
         --["Venus Fly Trap"] = 10,
+        ["Gold"] = 999,
         ["Sunflower"] = 150,
         ["Cherry"] = 150,
         ["Acorn"] = 100,
@@ -32,6 +33,7 @@ getgenv().UserConfig = {
         --Rare--
         ["Bamboo"] = 400,
         ["Pineangle"] = 5,
+        ["Pineapple"] = 5,
         ["Cactus"] = 2,
         ["Corn"] = 2,
 
@@ -158,6 +160,7 @@ getgenv().UserConfig = {
         "Bamboo",
         ["Tulip"] = {"Rainbow", "Gold"},
         ["Pineangle"] = {"Rainbow", "Gold"},
+        ["Pineapple"] = {"Rainbow", "Gold"},
         ["Cactus"] = {"Rainbow", "Gold"},
         ["Corn"] = {"Rainbow", "Gold"},
         ["Apple"] = {"Rainbow", "Gold"},
