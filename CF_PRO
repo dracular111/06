@@ -174,7 +174,7 @@ getgenv().UserConfig = {
         "Apple",
         "Corn",
         "Cactus",
-        --"Pineangle",
+        "Pineangle",
     },
 
     ["Blacklist Seed"] = {
