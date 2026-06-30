@@ -163,8 +163,6 @@ getgenv().UserConfig = {
         "Grape",
         "Green Bean",
         "Banana",
-        --["Green Bean"] = {"Rainbow", "Gold"},
-        --["Banana"] = {"Rainbow", "Gold"},
         "Mushroom",
         "Bamboo",
         "Tulip",
