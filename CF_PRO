@@ -174,13 +174,13 @@ getgenv().UserConfig = {
 
         --["Green Bean"] = {"Rainbow", "Gold"},
         --["Banana"] = {"Rainbow", "Gold"},
-        ["Pineapple"] = {"Rainbow", "Gold"},
-        ["Cactus"] = {"Rainbow", "Gold"},
-        ["Corn"] = {"Rainbow", "Gold"},
-        ["Apple"] = {"Rainbow", "Gold"},
-        ["Tomato"] = {"Rainbow", "Gold"},
-        ["Strawberry"] = {"Rainbow", "Gold"},
-        ["Blueberry"] = {"Rainbow", "Gold"},
+        ["Pineapple"] = {"Rainbow", "Mega", "Gold"},
+        ["Cactus"] = {"Rainbow", "Mega", "Gold"},
+        ["Corn"] = {"Rainbow", "Mega", "Gold"},
+        ["Apple"] = {"Rainbow", "Mega", "Gold"},
+        ["Tomato"] = {"Rainbow", "Mega", "Gold"},
+        ["Strawberry"] = {"Rainbow", "Mega", "Gold"},
+        ["Blueberry"] = {"Rainbow", "Mega", "Gold"},
     },
 
     ["Shovel Plant Once"] = {
