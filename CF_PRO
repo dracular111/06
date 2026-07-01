@@ -23,13 +23,13 @@ getgenv().UserConfig = {
         ["Sunflower"] = 200,
         ["Cherry"] = 200,
         ["Acorn"] = 100,
-        ["Dragon Fruit"] = 150,
+        ["Dragon Fruit"] = 200,
 
         --Epic--
         ["Mango"] = 150,
         ["Coconut"] = 100,
         ["Grape"] = 100,
-        ["Banana"] = 100,
+        ["Banana"] = 50,
         ["Green Bean"] = 20,
         ["Mushroom"] = 999,
 
@@ -173,8 +173,8 @@ getgenv().UserConfig = {
         --"Apple",
         --"Tomato",
 
-        --["Green Bean"] = {"Rainbow", "Gold"},
-        --["Banana"] = {"Rainbow", "Gold"},
+        --["Green Bean"] = {"Rainbow", "Mega", "Gold"},
+        --["Banana"] = {"Rainbow", "Mega", "Gold"},,
         ["Pineapple"] = {"Rainbow", "Mega", "Gold"},
         ["Cactus"] = {"Rainbow", "Mega", "Gold"},
         ["Corn"] = {"Rainbow", "Mega", "Gold"},
@@ -198,7 +198,7 @@ getgenv().UserConfig = {
         "Dragon's Breath",
         "Hypno Bloom",
         "Moon Bloom",
-        "Venom Spitter",
+        --"Venom Spitter",
         "Poison Apple",
         "Pomegranate",
         "Venus Fly Trap",
