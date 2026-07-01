@@ -17,7 +17,7 @@ getgenv().UserConfig = {
         --["Pomegranate"] = 10,
         --["Venus Fly Trap"] = 10,
         ["Gold"] = 999,
-        ["Mega"] = 999,
+        --["Mega"] = 999,
         ["Rainbow"] = 999,
         --Legendary--
         ["Sunflower"] = 200,
