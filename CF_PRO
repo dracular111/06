@@ -1,5 +1,5 @@
 getgenv().UserConfig = {
-    --["FPS Cap"] = 60,
+    ["FPS Cap"] = 3,
 
     ["Auto Double Or Nothing"] = false,
     ["Double Or Nothing Target Wins"] = 1,
@@ -29,7 +29,7 @@ getgenv().UserConfig = {
         ["Mango"] = 150,
         ["Coconut"] = 100,
         ["Grape"] = 100,
-        ["Banana"] = 80,
+        ["Banana"] = 50,
         ["Green Bean"] = 20,
         ["Mushroom"] = 999,
 
@@ -92,7 +92,8 @@ getgenv().UserConfig = {
     },
 
     ["Equip Pets"] = {
-        {"Deer", 6, 1},
+        {"Unicorn", 3, 1, "Normal"},
+        {"Deer", 6, 2},
     },
 
     ["Expand Plot"] = true,
