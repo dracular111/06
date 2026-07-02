@@ -35,7 +35,7 @@ getgenv().UserConfig = {
 
         --Rare--
         ["Bamboo"] = 999,
-        ["Pineapple"] = 20,
+        ["Pineapple"] = 5,
         ["Cactus"] = 5,
         ["Corn"] = 5,
 
