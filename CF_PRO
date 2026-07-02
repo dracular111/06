@@ -46,7 +46,7 @@ getgenv().UserConfig = {
 
         --["Blueberry"] = 4,
         --["Strawberry"] = 4,
-        ["Carrot"] = 300,
+        ["Carrot"] = 4,
     },
 
     ["Limit Buy Seed"] = {
