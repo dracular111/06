@@ -170,7 +170,7 @@ getgenv().UserConfig = {
         --"Tomato",
 
         --["Green Bean"] = {"Rainbow", "Mega", "Gold"},
-        --["Banana"] = {"Rainbow", "Mega", "Gold"},,
+        --["Banana"] = {"Rainbow", "Mega", "Gold"},
         ["Pineapple"] = {"Rainbow", "Mega", "Gold"},
         ["Cactus"] = {"Rainbow", "Mega", "Gold"},
         ["Corn"] = {"Rainbow", "Mega", "Gold"},
