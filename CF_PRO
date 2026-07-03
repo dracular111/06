@@ -61,9 +61,9 @@ getgenv().UserConfig = {
         ["Bamboo"] = 9999,
 
         ["Banana"] = 5,
-        ["Cactus"] = 5,
-        ["Corn"] = 5,
-        ["Apple"] = 5,
+        --["Cactus"] = 1,
+        --["Corn"] = 1,
+        --["Apple"] = 1,
         ["Tulip"] = 300,
         ["Carrot"] = 99999,
     },
@@ -191,6 +191,7 @@ getgenv().UserConfig = {
     },
 
     ["Blacklist Seed"] = {
+        "Mega",
         "Dragon's Breath",
         "Hypno Bloom",
         "Moon Bloom",
