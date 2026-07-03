@@ -35,17 +35,17 @@ getgenv().UserConfig = {
 
         --Rare--
         ["Bamboo"] = 999,
-        ["Pineapple"] = 5,
-        ["Cactus"] = 5,
-        ["Corn"] = 5,
+        ["Pineapple"] = 20,
+        ["Cactus"] = 10,
+        ["Corn"] = 10,
 
         --Uncommon--
-        ["Apple"] = 5,
-        ["Tomato"] = 5,
+        ["Apple"] = 10,
+        ["Tomato"] = 10,
         ["Tulip"] = 300,
 
-        --["Blueberry"] = 4,
-        --["Strawberry"] = 4,
+        ["Blueberry"] = 4,
+        ["Strawberry"] = 4,
         --["Carrot"] = 2,
     },
 
@@ -187,7 +187,7 @@ getgenv().UserConfig = {
         "Apple",
         "Corn",
         "Cactus",
-        "Pineapple",
+        --"Pineapple",
     },
 
     ["Blacklist Seed"] = {
