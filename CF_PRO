@@ -60,7 +60,8 @@ getgenv().UserConfig = {
         ["Mushroom"] = 9999,
         ["Bamboo"] = 9999,
 
-        ["Banana"] = 20,
+        ["Pineapple"] = 5,
+        ["Banana"] = 5,
         ["Cactus"] = 5,
         ["Corn"] = 5,
         ["Apple"] = 5,
@@ -163,7 +164,7 @@ getgenv().UserConfig = {
         "Mushroom",
         "Bamboo",
         "Tulip",
-        --"Pineapple",
+        "Pineapple",
         --"Cactus",
         --"Corn",
         --"Apple",
@@ -171,7 +172,7 @@ getgenv().UserConfig = {
 
         --["Green Bean"] = {"Rainbow", "Mega", "Gold"},
         --["Banana"] = {"Rainbow", "Mega", "Gold"},
-        ["Pineapple"] = {"Rainbow", "Mega", "Gold"},
+        --["Pineapple"] = {"Rainbow", "Mega", "Gold"},
         ["Cactus"] = {"Rainbow", "Mega", "Gold"},
         ["Corn"] = {"Rainbow", "Mega", "Gold"},
         ["Apple"] = {"Rainbow", "Mega", "Gold"},
