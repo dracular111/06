@@ -1,8 +1,9 @@
-    ["Claim Mail"] = false,
-    --["Mail Cooldown Secs"] = 180,
-    ["Mail Cooldown Secs"] = {60, 300},
-    ["Mail To Username"] = {},
+getgenv().MailConfig = {
+    ["Mail Time Window"] = getgenv().MAIL_TIME_WINDOW,
 
+    ["Claim Mail"] = false,
+    ["Mail Cooldown Secs"] = {60,300},
+    ["Mail To Username"] = {},
     ["Items To Mail"] = {
         ["Pet"] = {
             ["Golden Dragonfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706", "XzCraze77SwitchX7Wra", "CybercIPandaN1414", "XzPanda0lKingdzX1768", "Z3r0CWBlizzardY17915", "Xz_MysticeBShadeoBSk", "Chase4gFury0135176", "Scythe7IShifterVIZer", "Snar3XkTitanM1153", "RogueXWtShadowb1306"}},
