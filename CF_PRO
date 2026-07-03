@@ -61,9 +61,9 @@ getgenv().UserConfig = {
         ["Bamboo"] = 9999,
 
         ["Banana"] = 5,
-        --["Cactus"] = 1,
-        --["Corn"] = 1,
-        --["Apple"] = 1,
+        ["Cactus"] = 2,
+        ["Corn"] = 2,
+        ["Apple"] = 2,
         ["Tulip"] = 300,
         ["Carrot"] = 99999,
     },
