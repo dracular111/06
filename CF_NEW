@@ -56,7 +56,7 @@ getgenv().UserConfig = {
         ["Venom Spitter"] = 100,
         ["Cherry"] = 100,
         ["Dragon Fruit"] = 100,
-        ["Green Bean"] = 20,
+        ["Green Bean"] = 5,
         ["Mushroom"] = 9999,
         ["Bamboo"] = 9999,
 
@@ -181,13 +181,13 @@ getgenv().UserConfig = {
     },
 
     ["Shovel Plant Once"] = {
-        "Strawberry",
-        "Blueberry",
-        "Tomato",
-        "Apple",
-        "Corn",
-        "Cactus",
-        "Pineapple",
+        --"Strawberry",
+        --"Blueberry",
+        --"Tomato",
+        --"Apple",
+        --"Corn",
+        --"Cactus",
+        --"Pineapple",
     },
 
     ["Blacklist Seed"] = {
