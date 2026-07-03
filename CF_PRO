@@ -56,11 +56,11 @@ getgenv().UserConfig = {
         ["Venom Spitter"] = 100,
         ["Cherry"] = 100,
         ["Dragon Fruit"] = 100,
-        ["Green Bean"] = 5,
+        ["Green Bean"] = 20,
         ["Mushroom"] = 9999,
         ["Bamboo"] = 9999,
 
-        ["Banana"] = 5,
+        ["Banana"] = 20,
         ["Cactus"] = 5,
         ["Corn"] = 5,
         ["Apple"] = 5,
