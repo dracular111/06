@@ -205,5 +205,6 @@ getgenv().UserConfig = {
         --"Tomato",
         --"Strawberry",
         --"Blueberry",
+        "Carrot",
     },
 }
