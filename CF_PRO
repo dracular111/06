@@ -21,6 +21,7 @@ getgenv().UserConfig = {
         ["Rainbow"] = 999,
         --Legendary--
         ["Rocket Pop"] = 9999,
+        ["Fire Fern"] = 100,
         ["Sunflower"] = 100,
         ["Cherry"] = 200,
         ["Acorn"] = 100,
@@ -58,6 +59,8 @@ getgenv().UserConfig = {
         ["Venom Spitter"] = 100,
 
         --Legendary--
+        ["Fire Fern"] = 5,
+        ["Sunflower"] = 5,
         ["Rocket Pop"] = 9999,
         ["Cherry"] = 20,
         ["Acorn"] = 5,
@@ -169,6 +172,8 @@ getgenv().UserConfig = {
         "Poison Apple",
         "Pomegranate",
         "Venus Fly Trap",
+        "Fire Fern",
+        "Rocket Pop",
         "Sunflower",
         "Cherry",
         "Acorn",
