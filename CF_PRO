@@ -155,7 +155,8 @@ getgenv().UserConfig = {
     ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
     ["Harvest Mutation Only"] = {
         --"Bamboo", -- Chỉ thu hoạch Bamboo đột biến (bất kỳ loại đột biến nào)
-        "Mushroom",
+        --"Mushroom",
+        "Rocket Pop",
     },
     ["Auto Plant"] = false,
     ["Limit Auto Plant"] = 700,
