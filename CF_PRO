@@ -44,7 +44,7 @@ getgenv().UserConfig = {
         --Uncommon--
         ["Apple"] = 2,
         ["Tomato"] = 2,
-        ["Tulip"] = 20,
+        ["Tulip"] = 10,
 
         --["Blueberry"] = 2,
         --["Strawberry"] = 2,
