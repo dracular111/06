@@ -202,10 +202,10 @@ getgenv().UserConfig = {
     ["Shovel Plant Once"] = {
         "Strawberry",
         "Blueberry",
-        --"Tomato",
-       --"Apple",
-        --"Corn",
-        --"Cactus",
+        "Tomato",
+        "Apple",
+        "Corn",
+        "Cactus",
         --"Pineapple",
     },
 
