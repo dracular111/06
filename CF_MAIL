@@ -2,7 +2,7 @@ getgenv().MailConfig = {
     ["Mail Time Window"] = getgenv().MAIL_TIME_WINDOW,
 
     ["Claim Mail"] = false,
-    ["Mail Cooldown Secs"] = {120, 300},
+    ["Mail Cooldown Secs"] = {120, 240},
     ["Mail To Username"] = {},
     ["Items To Mail"] = {
         ["Pet"] = {
