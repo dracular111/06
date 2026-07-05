@@ -142,7 +142,7 @@ getgenv().UserConfig = {
         "Rocket Pop",
     },
     ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 700,
+    ["Limit Auto Plant"] = 400,
 
     ["Blacklist Shovel"] = {
         "Mega",
