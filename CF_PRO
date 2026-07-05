@@ -158,7 +158,7 @@ getgenv().UserConfig = {
     ["Harvest Mutation Only"] = {
         --"Bamboo", -- Chỉ thu hoạch Bamboo đột biến (bất kỳ loại đột biến nào)
         --"Mushroom",
-        "Rocket Pop",
+        --"Rocket Pop",
     },
     ["Auto Plant"] = false,
     ["Limit Auto Plant"] = 700,
