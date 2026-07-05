@@ -54,6 +54,7 @@ getgenv().UserConfig = {
         ["Hypno Bloom"] = 50000,
         ["Moon Bloom"] = 50000,
         ["Venom Spitter"] = 100,
+        ["Fire Fern"] = 5,
         ["Cherry"] = 100,
         ["Dragon Fruit"] = 100,
         ["Green Bean"] = 5,
@@ -76,7 +77,7 @@ getgenv().UserConfig = {
     },
     ["Buy Pets"] = {
         ["Raccoon"] = 999,
-        --["Unicorn"] = 999,
+        ["Unicorn"] = 999,
         --["Golden Dragonfly"] = 999,
         --["Black Dragon"] = 999,
 
@@ -95,8 +96,8 @@ getgenv().UserConfig = {
     },
 
     ["Equip Pets"] = {
-        {"Unicorn", 3, 1, "Normal"},
-        {"Deer", 6, 2},
+        {"Unicorn", 6, 1, "Normal"},
+        {"Deer", 6, 2, "Normal"},
     },
 
     ["Expand Plot"] = true,
@@ -137,7 +138,8 @@ getgenv().UserConfig = {
     ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
     ["Harvest Mutation Only"] = {
         --"Bamboo", -- Chỉ thu hoạch Bamboo đột biến (bất kỳ loại đột biến nào)
-        "Mushroom",
+        --"Mushroom",
+        "Rocket Pop",
     },
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 700,
