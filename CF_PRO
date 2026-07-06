@@ -221,7 +221,7 @@ getgenv().UserConfig = {
         "Dragon's Breath",
         "Hypno Bloom",
         "Moon Bloom",
-        --"Venom Spitter",
+        "Venom Spitter",
         "Poison Apple",
         "Pomegranate",
         "Venus Fly Trap",
