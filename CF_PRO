@@ -64,7 +64,7 @@ getgenv().UserConfig = {
         ["Rocket Pop"] = 9999,
         ["Cherry"] = 20,
         ["Acorn"] = 1,
-        ["Dragon Fruit"] = 20,
+        ["Dragon Fruit"] = 50,
 
         --Epic--
         ["Mango"] = 1,
