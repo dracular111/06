@@ -28,7 +28,7 @@ getgenv().UserConfig = {
         ["Dragon Fruit"] = 120,
 
         --Epic--
-        ["Mango"] = 20,
+        ["Mango"] = 10,
         ["Coconut"] = 10,
         ["Grape"] = 5,
         ["Banana"] = 5,
