@@ -203,8 +203,8 @@ getgenv().UserConfig = {
         ["Corn"] = {"Rainbow", "Mega", "Gold"},
         ["Apple"] = {"Rainbow", "Mega", "Gold"},
         ["Tomato"] = {"Rainbow", "Mega", "Gold"},
-        ["Strawberry"] = {"Rainbow", "Mega", "Gold"},
-        ["Blueberry"] = {"Rainbow", "Mega", "Gold"},
+        ["Strawberry"] = {"Rainbow"},
+        ["Blueberry"] = {"Rainbow"},
     },
 
     ["Shovel Plant Once"] = {
@@ -231,8 +231,8 @@ getgenv().UserConfig = {
         --"Corn",
         --"Apple",
         --"Tomato",
-        --"Strawberry",
-        --"Blueberry",
+        "Strawberry",
+        "Blueberry",
         "Carrot",
     },
 }
