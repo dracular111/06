@@ -61,16 +61,16 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 50,
         ["Pomegranate"] = 50,
         --Legendary--
-        ["Fire Fern"] = 100,
-        --["Sunflower"] = 5,
+        ["Fire Fern"] = 50,
+        ["Sunflower"] = 9999,
         ["Rocket Pop"] = 9999,
-        ["Cherry"] = 100,
-        ["Dragon Fruit"] = 100,
+        ["Cherry"] = 50,
+        ["Dragon Fruit"] = 50,
         ["Acorn"] = 5,
 
         --Epic--
-        ["Mango"] = 1,
-        ["Coconut"] = 1,
+        ["Mango"] = 9999,
+        ["Coconut"] = 9999,
         ["Grape"] = 1,
         ["Banana"] = 1,
         ["Green Bean"] = 1,
@@ -83,10 +83,10 @@ getgenv().UserConfig = {
         ["Corn"] = 2,
 
         --Uncommon--
-        ["Apple"] = 100,
-        ["Tomato"] = 100,
+        ["Apple"] = 9999,
+        ["Tomato"] = 5,
         --["Tulip"] = 999,
-        ["Carrot"] = 1000,
+        ["Carrot"] = 50,
     },
 
     ["Favorite"] = {
