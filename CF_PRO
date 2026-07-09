@@ -238,5 +238,6 @@ getgenv().UserConfig = {
         "Strawberry",
         "Blueberry",
         "Carrot",
+        "Rocket Pop",
     },
 }
