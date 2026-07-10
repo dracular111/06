@@ -6,7 +6,7 @@ getgenv().MailConfig = {
     ["Mail To Username"] = {},
     ["Items To Mail"] = {
         ["Pet"] = {
-            ["Bald Eagle"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+            --["Bald Eagle"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
             --["Golden Dragonfly"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
             --["Unicorn"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
             --["Raccoon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
