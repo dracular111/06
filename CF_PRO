@@ -12,7 +12,7 @@ getgenv().UserConfig = {
         --["Dragon's Breath"] = 10,
         --["Hypno Bloom"] = 10,
         --["Moon Bloom"] = 10,
-        ["Venom Spitter"] = 50,
+        ["Venom Spitter"] = 30,
         ["Venus Fly Trap"] = 20,
         ["Poison Apple"] = 10,
         ["Pomegranate"] = 10,
@@ -23,9 +23,9 @@ getgenv().UserConfig = {
         --["Rocket Pop"] = 20,
         ["Fire Fern"] = 80,
         ["Sunflower"] = 10,
-        ["Cherry"] = 60,
-        ["Acorn"] = 40,
-        ["Dragon Fruit"] = 40,
+        ["Cherry"] = 80,
+        ["Acorn"] = 20,
+        ["Dragon Fruit"] = 20,
 
         --Epic--
         ["Mango"] = 1,
@@ -37,17 +37,17 @@ getgenv().UserConfig = {
 
         --Rare--
         ["Bamboo"] = 10,
-        --["Pineapple"] = 2,
-        --["Cactus"] = 2,
-        --["Corn"] = 2,
+        ["Pineapple"] = 1,
+        ["Cactus"] = 1,
+        ["Corn"] = 1,
 
         --Uncommon--
-        --["Apple"] = 2,
-        --["Tomato"] = 2,
+        ["Apple"] = 1,
+        ["Tomato"] = 1,
         --["Tulip"] = 10,
 
-        ["Blueberry"] = 5,
-        ["Strawberry"] = 5,
+        ["Blueberry"] = 1,
+        ["Strawberry"] = 1,
         --["Carrot"] = 2,
     },
 
@@ -62,7 +62,7 @@ getgenv().UserConfig = {
         ["Pomegranate"] = 50,
         --Legendary--
         ["Fire Fern"] = 5,
-        --["Sunflower"] = 50,
+        --["Sunflower"] = 5,
         ["Rocket Pop"] = 9999,
         ["Cherry"] = 5,
         ["Dragon Fruit"] = 5,
