@@ -28,26 +28,26 @@ getgenv().UserConfig = {
         ["Dragon Fruit"] = 20,
 
         --Epic--
-        ["Mango"] = 1,
-        ["Coconut"] = 1,
-        ["Grape"] = 1,
-        ["Banana"] = 1,
-        ["Green Bean"] = 1,
+        ["Mango"] = 0,
+        ["Coconut"] = 0,
+        ["Grape"] = 0,
+        ["Banana"] = 0,
+        ["Green Bean"] = 0,
         ["Mushroom"] = 20,
 
         --Rare--
         ["Bamboo"] = 10,
-        ["Pineapple"] = 1,
-        ["Cactus"] = 1,
-        ["Corn"] = 1,
+        ["Pineapple"] = 0,
+        ["Cactus"] = 0,
+        ["Corn"] = 0,
 
         --Uncommon--
-        ["Apple"] = 1,
-        ["Tomato"] = 1,
+        ["Apple"] = 0,
+        ["Tomato"] = 0,
         --["Tulip"] = 10,
 
-        ["Blueberry"] = 1,
-        ["Strawberry"] = 1,
+        ["Blueberry"] = 0,
+        ["Strawberry"] = 0,
         --["Carrot"] = 2,
     },
 
