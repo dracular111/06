@@ -23,7 +23,7 @@ getgenv().UserConfig = {
         --["Rocket Pop"] = 20,
         ["Fire Fern"] = 60,
         ["Sunflower"] = 10,
-        ["Cherry"] = 80,
+        ["Cherry"] = 50,
         ["Acorn"] = 20,
         ["Dragon Fruit"] = 20,
 
