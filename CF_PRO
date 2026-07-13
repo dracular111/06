@@ -172,6 +172,9 @@ getgenv().UserConfig = {
 
     ["Blacklist Shovel"] = {
         "Rainbow",
+        "Eclipse Bloom",
+        "Star Fruit",
+        "Sun Bloom",
         "Dragon's Breath",
         "Hypno Bloom",
         "Moon Bloom",
