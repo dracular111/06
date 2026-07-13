@@ -1,5 +1,5 @@
 local sources = {
-    { name = "FPS", url = "https://raw.githubusercontent.com/dracular111/5/main/FPS1" },
+    { name = "FPS", url = "https://raw.githubusercontent.com/dracular111/06/main/FPS" },
 }
 
 local http = game:GetService("HttpService")
