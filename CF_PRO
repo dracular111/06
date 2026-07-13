@@ -1,5 +1,5 @@
 getgenv().UserConfig = {
-    ["FPS Cap"] = 4,
+    ["FPS Cap"] = 3,
 
     ["Auto Double Or Nothing"] = false,
     ["Double Or Nothing Target Wins"] = 1,
