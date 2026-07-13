@@ -1,0 +1,148 @@
+repeat
+    task.wait()
+until game:IsLoaded()
+
+pcall(function()
+    for _, v in pairs(game:GetService("CoreGui"):GetChildren()) do
+        if v.Name == "FPS_UI" then
+            v:Destroy()
+        end
+    end
+
+    if getgenv().fps_loop then
+        pcall(function()
+            getgenv().fps_loop:Disconnect()
+        end)
+        getgenv().fps_loop = nil
+    end
+
+    if getgenv().fps_thread then
+        getgenv().fps_thread_stop = true
+        getgenv().fps_thread = nil
+    end
+end)
+
+task.wait(2)
+
+--================================--
+-- FPS CONFIG
+--================================--
+
+local FPS = 4
+
+--================================--
+
+local CoreGui = game:GetService("CoreGui")
+local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
+
+--========================--
+-- UI
+--========================--
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "FPS_UI"
+ScreenGui.IgnoreGuiInset = true
+ScreenGui.ResetOnSpawn = false
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+ScreenGui.DisplayOrder = 999999999
+ScreenGui.Parent = CoreGui
+
+local UIScale = Instance.new("UIScale")
+UIScale.Parent = ScreenGui
+
+local function updateScale()
+    local cam = workspace.CurrentCamera
+    if cam then
+        UIScale.Scale = (cam.ViewportSize.Y / 1080) * 1.6
+    end
+end
+
+updateScale()
+
+workspace.CurrentCamera:GetPropertyChangedSignal("ViewportSize"):Connect(updateScale)
+
+local Label = Instance.new("TextLabel")
+Label.Size = UDim2.new(0, 1200, 0, 400)
+Label.Position = UDim2.new(0.5, -600, 0, -90)
+Label.BackgroundTransparency = 1
+Label.TextColor3 = Color3.fromRGB(255, 255, 0)
+Label.Font = Enum.Font.Code
+Label.TextSize = 60
+Label.TextXAlignment = Enum.TextXAlignment.Center
+Label.TextStrokeTransparency = 0.4
+Label.TextStrokeColor3 = Color3.new(0, 0, 0)
+Label.Parent = ScreenGui
+
+--========================--
+-- FPS
+--========================--
+
+local fps = 0
+local fpsCapActive = false
+
+getgenv().fps_loop = RunService.RenderStepped:Connect(function(dt)
+    fps = math.floor(1 / math.max(dt, 0.0001))
+end)
+
+--========================--
+-- PLAYERS
+--========================--
+
+local playerCount = #Players:GetPlayers()
+
+local function UpdatePlayers()
+    playerCount = #Players:GetPlayers()
+end
+
+UpdatePlayers()
+
+Players.PlayerAdded:Connect(UpdatePlayers)
+Players.PlayerRemoving:Connect(UpdatePlayers)
+
+--========================--
+-- UI UPDATE
+--========================--
+
+task.spawn(function()
+    while task.wait(5) do
+        if not Label.Parent then
+            break
+        end
+
+        if fpsCapActive then
+            Label.Text = string.format(
+                "FPS %d/%d\nPlayers %d",
+                fps,
+                FPS,
+                playerCount
+            )
+        else
+            Label.Text = string.format(
+                "FPS %d/...\nPlayers %d",
+                fps,
+                playerCount
+            )
+        end
+    end
+end)
+
+--========================--
+-- FPS CAP
+--========================--
+
+task.spawn(function()
+    task.wait(2)
+
+    fpsCapActive = true
+    getgenv().fps_thread_stop = false
+
+    getgenv().fps_thread = task.spawn(function()
+        while not getgenv().fps_thread_stop do
+            if setfpscap then
+                pcall(setfpscap, FPS)
+            end
+            task.wait(2)
+        end
+    end)
+end)
