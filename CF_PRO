@@ -9,6 +9,9 @@ getgenv().UserConfig = {
 
     ["Limit Plant Seed"] = {
         --Mythic--
+        ["Eclipse Bloom"] = 999,
+        ["Star Fruit"] = 999,
+        ["Sun Bloom"] = 999,
         --["Dragon's Breath"] = 10,
         --["Hypno Bloom"] = 10,
         --["Moon Bloom"] = 10,
