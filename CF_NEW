@@ -1,5 +1,5 @@
 getgenv().UserConfig = {
-    ["FPS Cap"] = 3,
+    --["FPS Cap"] = 3,
 
     ["Auto Double Or Nothing"] = false,
     ["Double Or Nothing Target Wins"] = 1,
@@ -53,13 +53,16 @@ getgenv().UserConfig = {
 
     ["Limit Buy Seed"] = {
         --Mythic--
+        ["Eclipse Bloom"] = 999,
+        ["Star Fruit"] = 999,
+        ["Sun Bloom"] = 999,
         ["Dragon's Breath"] = 50000,
         ["Hypno Bloom"] = 50000,
         ["Moon Bloom"] = 50000,
-        ["Venom Spitter"] = 100,
-        ["Venus Fly Trap"] = 80,
-        ["Poison Apple"] = 50,
-        ["Pomegranate"] = 50,
+        ["Venom Spitter"] = 999,
+        ["Venus Fly Trap"] = 50,
+        ["Poison Apple"] = 20,
+        ["Pomegranate"] = 20,
         --Legendary--
         ["Fire Fern"] = 5,
         --["Sunflower"] = 50,
