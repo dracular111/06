@@ -171,9 +171,7 @@ getgenv().UserConfig = {
     ["Limit Auto Plant"] = 700,
 
     ["Blacklist Shovel"] = {
-        "Mega",
         "Rainbow",
-        "Gold",
         "Dragon's Breath",
         "Hypno Bloom",
         "Moon Bloom",
