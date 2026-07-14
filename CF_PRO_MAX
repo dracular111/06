@@ -1,0 +1,248 @@
+getgenv().UserConfig = {
+    ["FPS Cap"] = 3,
+
+    ["Auto Double Or Nothing"] = false,
+    ["Double Or Nothing Target Wins"] = 1,
+
+    ["Auto Buy Seed"] = true,
+    ["Auto Plant Seed"] = true,
+
+    ["Limit Plant Seed"] = {
+        --Mythic--
+        --["Dragon's Breath"] = 10,
+        --["Hypno Bloom"] = 10,
+        ["Moon Bloom"] = 1,
+        ["Venom Spitter"] = 40,
+        ["Venus Fly Trap"] = 20,
+        ["Poison Apple"] = 15,
+        ["Pomegranate"] = 15,
+        ["Gold"] = 999,
+        --["Mega"] = 999,
+        ["Rainbow"] = 999,
+        --Legendary--
+        ["Rocket Pop"] = 10,
+        ["Fire Fern"] = 50,
+        ["Sunflower"] = 5,
+        ["Cherry"] = 30,
+        ["Acorn"] = 20,
+        ["Dragon Fruit"] = 20,
+
+        --Epic--
+        ["Mango"] = 0,
+        ["Coconut"] = 0,
+        ["Grape"] = 0,
+        ["Banana"] = 0,
+        ["Green Bean"] = 0,
+        ["Mushroom"] = 10,
+
+        --Rare--
+        ["Bamboo"] = 10,
+        ["Pineapple"] = 10,
+        ["Cactus"] = 10,
+        ["Corn"] = 10,
+
+        --Uncommon--
+        ["Apple"] = 10,
+        ["Tomato"] = 7,
+        --["Tulip"] = 10,
+
+        ["Blueberry"] = 5,
+        ["Strawberry"] = 4,
+        --["Carrot"] = 2,
+    },
+
+    ["Limit Buy Seed"] = {
+        --Mythic--
+        ["Eclipse Bloom"] = 999,
+        ["Star Fruit"] = 999,
+        ["Sun Bloom"] = 999,
+        ["Dragon's Breath"] = 50000,
+        ["Hypno Bloom"] = 50000,
+        ["Moon Bloom"] = 50000,
+        ["Venom Spitter"] = 1,
+        ["Venus Fly Trap"] = 1,
+        ["Poison Apple"] = 1,
+        ["Pomegranate"] = 1,
+        --Legendary--
+        ["Fire Fern"] = 2,
+        --["Sunflower"] = 2,
+        ["Rocket Pop"] = 9999,
+        ["Cherry"] = 2,
+        ["Dragon Fruit"] = 2,
+        ["Acorn"] = 2,
+
+        --Epic--
+        ["Mango"] = 1,
+        ["Coconut"] = 1,
+        ["Grape"] = 1,
+        ["Banana"] = 1,
+        ["Green Bean"] = 1,
+        ["Mushroom"] = 999,
+
+        --Rare--
+        ["Bamboo"] = 999,
+        ["Pineapple"] = 9999,
+        ["Cactus"] = 2,
+        ["Corn"] = 2,
+
+        --Uncommon--
+        ["Apple"] = 5,
+        ["Tomato"] = 5,
+        --["Tulip"] = 999,
+        ["Carrot"] = 50,
+    },
+
+    ["Favorite"] = {
+        ["Horned Melon"] = {},
+    },
+    ["Buy Pets"] = {
+        --["Butterfly"] = {Normal = 999, Big = 99, Huge = 99, Rainbow = 99},
+        ["Butterfly"] = 100,
+        --["Bald Eagle"] = 100,
+        ["Firefly"] = 100,
+        ["Raccoon"] = 100,
+        ["Unicorn"] = 100,
+        ["Golden Dragonfly"] = 100,
+        ["Black Dragon"] = 100,
+
+        --["Unicorn"] = {Normal = 999, Big = 99, Huge = 99, Rainbow = 99},
+        --["Golden Dragonfly"] = {Big = 99, Huge = 99, Rainbow = 99},
+
+        ["Bald Eagle"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Turtle"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Frog"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Bunny"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Owl"] = {Big = 99, Huge = 99},
+        ["Deer"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
+    },
+
+    ["Equip Pets"] = {
+        {"Unicorn", 6, 1, "Normal"},
+        {"Golden Dragonfly", 6, 2, "Normal"},
+        {"Deer", 6, 3, "Normal"},
+    },
+
+    ["Expand Plot"] = true,
+    ["Plot Expansions"] = 3,
+    ["Unlock Pet Slots"] = 6,
+
+    ["Auto Collect Seed Packs"] = true,
+
+    ["Gears"] = {
+        ["Buy Gear"] = {
+            "Common Sprinkler",
+            "Uncommon Sprinkler",
+            "Rare Sprinkler",
+            "Legendary Sprinkler",
+            "Super Sprinkler",
+            "Super Watering Can",
+        },
+
+        ["Gears To Use"] = {
+            "Common Watering Can",
+            "Common Sprinkler",
+            "Uncommon Sprinkler",
+            "Rare Sprinkler",
+            "Legendary Sprinkler",
+            --"Super Sprinkler",
+            --"Super Watering Can",
+        },
+    },
+
+    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1515430104044535828/Rzsf-cDZyPAyEwdEV6W-5L0mJ0I1gzuccKelLEI6T_6KNfTBdk3fyhAG51gEifsYNwhq",
+    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Ice Serpent"},
+    ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
+ 	-- WH Seed
+    ["Webhook Seed URL"] = "https://discord.com/api/webhooks/1518462910488121486/_3NHlbfr2UWdRPL5UdKvuzuNgH1xuOYZlnydotDzNwnHvQvo-7znI0ViuiES8Rxpl2YX",
+    ["Webhook Seed Name"] = {"Rainbow", "Gold", "Mega", "Eclipse Bloom", "Sun Bloom", "Star Fruit", "Dragon's Breath", "Hypno Bloom", "Moon Bloom"},
+    	-- WH Gear
+    ["Webhook Gear URL"] = "https://discord.com/api/webhooks/1521942343316410530/1EGZuUwOYJNWZb_b8lI3PKWG4Zqhrf44BHnuJjaGR9g-3rn532-04UNeZTsNJEk_jCH-",
+    ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
+    ["Harvest Mutation Only"] = {
+        --"Bamboo", -- Chỉ thu hoạch Bamboo đột biến (bất kỳ loại đột biến nào)
+        --"Mushroom",
+        --"Rocket Pop",
+    },
+    ["Auto Plant"] = false,
+    ["Limit Auto Plant"] = 700,
+
+    ["Blacklist Shovel"] = {
+        "Rainbow",
+        "Eclipse Bloom",
+        "Star Fruit",
+        "Sun Bloom",
+        "Dragon's Breath",
+        "Hypno Bloom",
+        "Moon Bloom",
+        "Venom Spitter",
+        "Poison Apple",
+        "Pomegranate",
+        "Venus Fly Trap",
+        "Fire Fern",
+        "Rocket Pop",
+        "Sunflower",
+        "Cherry",
+        "Mushroom",
+        "Bamboo",
+        "Tulip",
+        "Dragon Fruit",
+        "Acorn",
+        --["Dragon Fruit"] = {"Rainbow", "Mega", "Gold"},
+        --["Acorn"] = {"Rainbow", "Mega", "Gold"},
+        ["Mango"] = {"Rainbow", "Gold"},
+        ["Coconut"] = {"Rainbow", "Gold"},
+        ["Grape"] = {"Rainbow", "Gold"},
+        ["Green Bean"] = {"Rainbow", "Gold"},
+        ["Banana"] = {"Rainbow", "Gold"},
+        ["Pineapple"] = {"Rainbow", "Gold"},
+        ["Cactus"] = {"Rainbow"},
+        ["Corn"] = {"Rainbow"},
+        ["Apple"] = {"Rainbow"},
+        ["Tomato"] = {"Rainbow"},
+        ["Strawberry"] = {"Rainbow"},
+        ["Blueberry"] = {"Rainbow"},
+    },
+
+    ["Shovel Plant Once"] = {
+        "Strawberry",
+        "Blueberry",
+        "Tomato",
+        "Apple",
+        "Corn",
+        "Cactus",
+        "Pineapple",
+    },
+
+    ["Blacklist Seed"] = {
+        "Mega",
+        --"Rainbow",
+        "Dragon's Breath",
+        "Hypno Bloom",
+        --"Moon Bloom",
+        "Eclipse Bloom",
+        "Star Fruit",
+        "Sun Bloom",
+        --"Venom Spitter",
+        --"Poison Apple",
+        --"Pomegranate",
+        --"Venus Fly Trap",
+        "Mango",
+        "Coconut",
+        "Grape",
+        "Banana",
+        "Green Bean",
+        "Pineapple",
+        "Cactus",
+        "Corn",
+        "Apple",
+        "Tomato",
+        "Strawberry",
+        "Blueberry",
+        "Carrot",
+        "Rocket Pop",
+    },
+}
