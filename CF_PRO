@@ -11,14 +11,14 @@ getgenv().UserConfig = {
         --Mythic--
         --["Dragon's Breath"] = 10,
         --["Hypno Bloom"] = 10,
-        --["Moon Bloom"] = 10,
+        ["Moon Bloom"] = 1,
         ["Venom Spitter"] = 40,
         ["Venus Fly Trap"] = 20,
         ["Poison Apple"] = 15,
-        ["Pomegranate"] = 10,
+        ["Pomegranate"] = 15,
         ["Gold"] = 999,
         --["Mega"] = 999,
-        --["Rainbow"] = 999,
+        ["Rainbow"] = 999,
         --Legendary--
         --["Rocket Pop"] = 10,
         ["Fire Fern"] = 50,
@@ -217,10 +217,10 @@ getgenv().UserConfig = {
 
     ["Blacklist Seed"] = {
         "Mega",
-        "Rainbow",
+        --"Rainbow",
         "Dragon's Breath",
         "Hypno Bloom",
-        "Moon Bloom",
+        --"Moon Bloom",
         "Eclipse Bloom",
         "Star Fruit",
         "Sun Bloom",
