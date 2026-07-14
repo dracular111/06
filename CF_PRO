@@ -64,12 +64,12 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 1,
         ["Pomegranate"] = 1,
         --Legendary--
-        ["Fire Fern"] = 5,
-        --["Sunflower"] = 5,
+        ["Fire Fern"] = 2,
+        --["Sunflower"] = 2,
         ["Rocket Pop"] = 9999,
-        ["Cherry"] = 5,
-        ["Dragon Fruit"] = 5,
-        ["Acorn"] = 5,
+        ["Cherry"] = 2,
+        ["Dragon Fruit"] = 2,
+        ["Acorn"] = 2,
 
         --Epic--
         ["Mango"] = 1,
