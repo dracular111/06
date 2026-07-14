@@ -215,13 +215,13 @@ getgenv().UserConfig = {
     },
 
     ["Shovel Plant Once"] = {
-        "Strawberry",
-        "Blueberry",
-        "Tomato",
-        "Apple",
-        "Corn",
-        "Cactus",
-        "Pineapple",
+        --"Strawberry",
+        --"Blueberry",
+        --"Tomato",
+        --"Apple",
+        --"Corn",
+        --"Cactus",
+        --"Pineapple",
     },
 
     ["Blacklist Seed"] = {
