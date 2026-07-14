@@ -17,7 +17,7 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 10,
         ["Pomegranate"] = 10,
         ["Gold"] = 999,
-        --["Mega"] = 999,
+        ["Mega"] = 999,
         ["Rainbow"] = 999,
         --Legendary--
         --["Rocket Pop"] = 20,
@@ -225,7 +225,7 @@ getgenv().UserConfig = {
     },
 
     ["Blacklist Seed"] = {
-        "Mega",
+        --"Mega",
         "Dragon's Breath",
         "Hypno Bloom",
         "Moon Bloom",
