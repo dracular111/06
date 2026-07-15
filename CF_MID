@@ -17,15 +17,15 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 15,
         ["Pomegranate"] = 15,
         ["Gold"] = 999,
-        --["Mega"] = 999,
+        ["Mega"] = 999,
         ["Rainbow"] = 999,
         --Legendary--
         ["Rocket Pop"] = 10,
-        ["Fire Fern"] = 50,
+        ["Fire Fern"] = 100,
         ["Sunflower"] = 5,
-        ["Cherry"] = 30,
-        ["Acorn"] = 20,
-        ["Dragon Fruit"] = 20,
+        ["Cherry"] = 80,
+        ["Acorn"] = 50,
+        ["Dragon Fruit"] = 50,
 
         --Epic--
         ["Mango"] = 0,
@@ -57,7 +57,7 @@ getgenv().UserConfig = {
         ["Star Fruit"] = 999,
         ["Sun Bloom"] = 999,
         ["Dragon's Breath"] = 50000,
-        ["Hypno Bloom"] = 50000,
+        --["Hypno Bloom"] = 50000,
         ["Moon Bloom"] = 50000,
         ["Venom Spitter"] = 1,
         ["Venus Fly Trap"] = 1,
@@ -81,7 +81,7 @@ getgenv().UserConfig = {
 
         --Rare--
         ["Bamboo"] = 999,
-        ["Pineapple"] = 9999,
+        ["Pineapple"] = 999,
         ["Cactus"] = 2,
         ["Corn"] = 2,
 
@@ -89,7 +89,7 @@ getgenv().UserConfig = {
         ["Apple"] = 5,
         ["Tomato"] = 5,
         --["Tulip"] = 999,
-        ["Carrot"] = 50,
+        --["Carrot"] = 50,
     },
 
     ["Favorite"] = {
@@ -99,7 +99,7 @@ getgenv().UserConfig = {
         --["Butterfly"] = {Normal = 999, Big = 99, Huge = 99, Rainbow = 99},
         ["Butterfly"] = 100,
         --["Bald Eagle"] = 100,
-        ["Firefly"] = 100,
+        --["Firefly"] = 100,
         ["Raccoon"] = 100,
         ["Unicorn"] = 100,
         ["Golden Dragonfly"] = 100,
@@ -127,7 +127,7 @@ getgenv().UserConfig = {
     },
 
     ["Expand Plot"] = true,
-    ["Plot Expansions"] = 3,
+    ["Plot Expansions"] = 2,
     ["Unlock Pet Slots"] = 6,
 
     ["Auto Collect Seed Packs"] = true,
@@ -172,6 +172,8 @@ getgenv().UserConfig = {
 
     ["Blacklist Shovel"] = {
         "Rainbow",
+        "Gold",
+        "Mega",
         "Eclipse Bloom",
         "Star Fruit",
         "Sun Bloom",
@@ -208,17 +210,17 @@ getgenv().UserConfig = {
     },
 
     ["Shovel Plant Once"] = {
-        "Strawberry",
-        "Blueberry",
-        "Tomato",
-        "Apple",
-        "Corn",
-        "Cactus",
-        "Pineapple",
+        --"Strawberry",
+        --"Blueberry",
+        --"Tomato",
+        --"Apple",
+        --"Corn",
+        --"Cactus",
+        --"Pineapple",
     },
 
     ["Blacklist Seed"] = {
-        "Mega",
+        --"Mega",
         --"Rainbow",
         "Dragon's Breath",
         "Hypno Bloom",
@@ -243,6 +245,6 @@ getgenv().UserConfig = {
         "Strawberry",
         "Blueberry",
         "Carrot",
-        "Rocket Pop",
+        --"Rocket Pop",
     },
 }
