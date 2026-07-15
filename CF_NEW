@@ -20,7 +20,7 @@ getgenv().UserConfig = {
         ["Mega"] = 999,
         ["Rainbow"] = 999,
         --Legendary--
-        --["Rocket Pop"] = 20,
+        ["Rocket Pop"] = 10,
         ["Fire Fern"] = 80,
         ["Sunflower"] = 5,
         ["Cherry"] = 80,
@@ -44,7 +44,7 @@ getgenv().UserConfig = {
         --Uncommon--
         ["Apple"] = 10,
         ["Tomato"] = 7,
-        --["Tulip"] = 10,
+        ["Tulip"] = 10,
 
         ["Blueberry"] = 5,
         ["Strawberry"] = 4,
