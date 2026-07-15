@@ -101,7 +101,7 @@ getgenv().UserConfig = {
         --["Bald Eagle"] = 100,
         --["Raccoon"] = 100,
         ["Unicorn"] = 100,
-        ["Golden Dragonfly"] = 100,
+        --["Golden Dragonfly"] = 100,
         --["Black Dragon"] = 100,
 
         --["Unicorn"] = {Normal = 999, Big = 99, Huge = 99, Rainbow = 99},
