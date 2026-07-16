@@ -71,11 +71,11 @@ getgenv().UserConfig = {
         ["Acorn"] = 2,
 
         --Epic--
-        ["Mango"] = 1,
-        ["Coconut"] = 1,
-        ["Grape"] = 1,
-        ["Banana"] = 1,
-        ["Green Bean"] = 1,
+        --["Mango"] = 1,
+        --["Coconut"] = 1,
+        --["Grape"] = 1,
+        --["Banana"] = 1,
+        --["Green Bean"] = 1,
         ["Mushroom"] = 999,
 
         --Rare--
