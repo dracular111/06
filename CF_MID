@@ -37,14 +37,14 @@ getgenv().UserConfig = {
 
         --Rare--
         ["Bamboo"] = 10,
-        ["Pineapple"] = 10,
-        ["Cactus"] = 10,
-        ["Corn"] = 10,
+        ["Pineapple"] = 20,
+        ["Cactus"] = 20,
+        ["Corn"] = 20,
 
         --Uncommon--
-        ["Apple"] = 10,
-        ["Tomato"] = 7,
-        --["Tulip"] = 10,
+        ["Apple"] = 20,
+        ["Tomato"] = 20,
+        ["Tulip"] = 10,
 
         ["Blueberry"] = 5,
         ["Strawberry"] = 4,
