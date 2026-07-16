@@ -24,8 +24,8 @@ getgenv().UserConfig = {
         ["Fire Fern"] = 80,
         ["Sunflower"] = 5,
         ["Cherry"] = 30,
-        ["Acorn"] = 20,
-        ["Dragon Fruit"] = 20,
+        ["Acorn"] = 30,
+        ["Dragon Fruit"] = 30,
 
         --Epic--
         ["Mango"] = 0,
@@ -203,8 +203,6 @@ getgenv().UserConfig = {
         "Corn",
         "Apple",
         "Tomato",
-        "Strawberry",
-        "Blueberry",
         --["Dragon Fruit"] = {"Rainbow", "Mega", "Gold"},
         --["Acorn"] = {"Rainbow", "Mega", "Gold"},
         --["Mango"] = {"Rainbow", "Gold"},
@@ -217,8 +215,8 @@ getgenv().UserConfig = {
         --["Corn"] = {"Rainbow"},
         --["Apple"] = {"Rainbow"},
         --["Tomato"] = {"Rainbow"},
-        --["Strawberry"] = {"Rainbow"},
-        --["Blueberry"] = {"Rainbow"},
+        ["Strawberry"] = {"Rainbow"},
+        ["Blueberry"] = {"Rainbow"},
     },
 
     ["Shovel Plant Once"] = {
