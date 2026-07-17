@@ -32,8 +32,8 @@ getgenv().UserConfig = {
         ["Tomato"] = 40,
         ["Tulip"] = 999,
 
-        ["Blueberry"] = 30,
-        ["Strawberry"] = 30,
+        ["Blueberry"] = 20,
+        ["Strawberry"] = 20,
         ["Carrot"] = 10,
     },
 
