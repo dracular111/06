@@ -84,7 +84,7 @@ getgenv().UserConfig = {
 
         ["Unicorn"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
         ["Golden Dragonfly"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Firefly"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Firefly"] = {Normal = 3, Big = 99, Huge = 99, Rainbow = 99},
 
         ["Bald Eagle"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Turtle"] = {Big = 99, Huge = 99, Rainbow = 99},
@@ -101,7 +101,8 @@ getgenv().UserConfig = {
     ["Equip Pets"] = {
         {"Unicorn", 6, 1, "Normal"},
         {"Golden Dragonfly", 6, 2, "Normal"},
-        {"Deer", 6, 3, "Normal"},
+        {"Firefly", 6, 3, "Normal"},
+        {"Deer", 6, 4, "Normal"},
     },
 
     ["Expand Plot"] = true,
