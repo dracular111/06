@@ -37,10 +37,8 @@ getgenv().UserConfig = {
         ["Apple"] = 10,
         ["Tomato"] = 7,
         ["Tulip"] = 999,
-
         ["Blueberry"] = 5,
         ["Strawberry"] = 4,
-        --["Carrot"] = 2,
     },
 
     ["Limit Buy Seed"] = {
