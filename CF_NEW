@@ -34,7 +34,7 @@ getgenv().UserConfig = {
         ["Mushroom"] = 999,
 
         --Rare--
-        ["Bamboo"] = 50,
+        ["Bamboo"] = 100,
         ["Pineapple"] = 30,
         ["Cactus"] = 30,
         ["Corn"] = 30,
