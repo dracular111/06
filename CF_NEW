@@ -8,84 +8,54 @@ getgenv().UserConfig = {
 
     ["Limit Plant Seed"] = {
         --Mythic--
-        --["Dragon's Breath"] = 10,
-        --["Hypno Bloom"] = 10,
-        ["Moon Bloom"] = 1,
-        ["Venom Spitter"] = 40,
-        ["Venus Fly Trap"] = 20,
-        ["Poison Apple"] = 20,
-        ["Pomegranate"] = 15,
         ["Gold"] = 999,
         ["Mega"] = 999,
         ["Rainbow"] = 999,
         --Legendary--
         ["Rocket Pop"] = 10,
         ["Fire Fern"] = 80,
-        ["Sunflower"] = 5,
         ["Cherry"] = 50,
-        ["Acorn"] = 30,
-        ["Dragon Fruit"] = 50,
+        ["Dragon Fruit"] = 30,
+
         --Epic--
-        ["Mango"] = 10,
-        ["Coconut"] = 10,
-        ["Grape"] = 20,
-        ["Banana"] = 20,
-        ["Green Bean"] = 30,
+        ["Green Bean"] = 5,
         ["Mushroom"] = 100,
+
         --Rare--
         ["Bamboo"] = 100,
         ["Pineapple"] = 30,
         ["Cactus"] = 30,
         ["Corn"] = 30,
+
         --Uncommon--
-        ["Apple"] = 30,
-        ["Tomato"] = 30,
+        ["Apple"] = 25,
+        ["Tomato"] = 25,
         ["Tulip"] = 999,
 
-        ["Blueberry"] = 5,
-        ["Strawberry"] = 4,
+        ["Blueberry"] = 20,
+        ["Strawberry"] = 20,
         ["Carrot"] = 10,
     },
 
     ["Limit Buy Seed"] = {
-        --Mythic--
-        ["Eclipse Bloom"] = 999,
-        ["Star Fruit"] = 999,
-        ["Sun Bloom"] = 999,
-        --["Dragon's Breath"] = 50000,
-        --["Hypno Bloom"] = 50000,
-        --["Moon Bloom"] = 50000,
-        --["Venom Spitter"] = 999,
-        --["Venus Fly Trap"] = 30,
-        --["Poison Apple"] = 20,
-        --["Pomegranate"] = 20,
         --Legendary--
-        ["Fire Fern"] = 5,
-        --["Sunflower"] = 50,
+        ["Fire Fern"] = 1,
         ["Rocket Pop"] = 9999,
         ["Cherry"] = 1,
         ["Dragon Fruit"] = 1,
-        ["Acorn"] = 1,
-
         --Epic--
-        ["Mango"] = 1,
-        ["Coconut"] = 1,
-        ["Grape"] = 1,
-        ["Banana"] = 1,
-        ["Green Bean"] = 5,
+        ["Green Bean"] = 1,
         ["Mushroom"] = 999,
-
         --Rare--
         ["Bamboo"] = 9999,
         ["Pineapple"] = 5,
         ["Cactus"] = 5,
         ["Corn"] = 5,
-
         --Uncommon--
         ["Apple"] = 5,
         ["Tomato"] = 5,
-        ["Tulip"] = 50,
-        ["Carrot"] = 20,
+        ["Tulip"] = 10,
+        ["Carrot"] = 10,
     },
 
     ["Favorite"] = {
