@@ -10,7 +10,7 @@ getgenv().UserConfig = {
         --Mythic--
         --["Dragon's Breath"] = 10,
         --["Hypno Bloom"] = 10,
-        ["Moon Bloom"] = 5,
+        ["Moon Bloom"] = 10,
         ["Venom Spitter"] = 40,
         ["Venus Fly Trap"] = 20,
         ["Poison Apple"] = 20,
