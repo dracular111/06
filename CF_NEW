@@ -25,15 +25,15 @@ getgenv().UserConfig = {
         ["Bamboo"] = 100,
         ["Pineapple"] = 20,
         ["Cactus"] = 50,
-        ["Corn"] = 50,
+        ["Corn"] = 45,
 
         --Uncommon--
         ["Apple"] = 40,
-        ["Tomato"] = 40,
+        ["Tomato"] = 30,
         ["Tulip"] = 999,
 
         ["Blueberry"] = 20,
-        ["Strawberry"] = 20,
+        ["Strawberry"] = 15,
         ["Carrot"] = 10,
     },
 
