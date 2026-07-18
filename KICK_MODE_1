@@ -3,8 +3,9 @@ repeat
 until game:IsLoaded()
 
 local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
+local TeleportService = game:GetService("TeleportService")
 
+local LocalPlayer = Players.LocalPlayer
 local Sheckles = LocalPlayer:WaitForChild("leaderstats"):WaitForChild("Sheckles")
 
 -- Chờ loader gán LOADED_CONFIG
@@ -14,27 +15,59 @@ until getgenv().LOADED_CONFIG ~= nil
 
 print("[CONFIG WATCHER] Started | Current Config:", getgenv().LOADED_CONFIG)
 
+local IsRejoining = false
+
+local function Rejoin(reason)
+    if IsRejoining then
+        return
+    end
+
+    IsRejoining = true
+
+    for i = 1, 3 do
+        warn(string.format(
+            "[CONFIG WATCHER] Rejoin %d/3 | %s",
+            i,
+            reason
+        ))
+
+        pcall(function()
+            TeleportService:Teleport(
+                game.PlaceId,
+                LocalPlayer
+            )
+        end)
+
+        -- Nếu Teleport thành công thì client sẽ chuyển server.
+        -- Nếu sau 10 giây vẫn còn ở server thì thử lại.
+        task.wait(10)
+    end
+
+    warn("[CONFIG WATCHER] Rejoin failed 3 times, kicking...")
+    LocalPlayer:Kick(reason)
+end
+
 while task.wait(60) do
     local Config = getgenv().LOADED_CONFIG
     local Money = Sheckles.Value
 
-    if Config == 1 and Money >= 100_000_000 then
+    if Config == 1 and Money >= 105_000_000 then
         warn(string.format(
             "[CONFIG WATCHER] CF_NEW -> CF_MID | Sheckles: %s",
             Money
         ))
 
-        LocalPlayer:Kick("Reload Config (CF_NEW -> CF_MID)")
+        Rejoin("Reload Config (CF_NEW -> CF_MID)")
         break
     end
 
-    if Config == 2 and Money >= 500_000_000 then
+    if Config == 2 and Money >= 505_000_000 then
         warn(string.format(
             "[CONFIG WATCHER] CF_MID -> CF_PRO | Sheckles: %s",
             Money
         ))
 
-        LocalPlayer:Kick("Reload Config (CF_MID -> CF_PRO)")
+        Rejoin("Reload Config (CF_MID -> CF_PRO)")
         break
     end
 end
