@@ -5,7 +5,6 @@ getgenv().UserConfig = {
     ["Double Or Nothing Target Wins"] = 1,
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
-    ["Claim Mail"] = true,
 
     ["Limit Plant Seed"] = {
         --Mythic--
