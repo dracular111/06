@@ -33,8 +33,8 @@ getgenv().UserConfig = {
         --Rare--
         ["Bamboo"] = 100,
         ["Pineapple"] = 10,
-        ["Cactus"] = 20,
-        ["Corn"] = 15,
+        ["Cactus"] = 10,
+        ["Corn"] = 10,
 
         --Uncommon--
         ["Apple"] = 10,
@@ -185,14 +185,14 @@ getgenv().UserConfig = {
         "Bamboo",
         "Tulip",
         "Dragon Fruit",
-        "Acorn",
+        --"Acorn",
         --"Mango",
         --"Coconut",
         --"Grape",
         --"Banana",
         --"Green Bean",
         --["Dragon Fruit"] = {"Rainbow", "Mega", "Gold"},
-        --["Acorn"] = {"Rainbow", "Mega", "Gold"},
+        ["Acorn"] = {"Rainbow", "Mega", "Gold"},
         ["Mango"] = {"Rainbow", "Mega", "Gold"},
         ["Coconut"] = {"Rainbow", "Mega", "Gold"},
         ["Grape"] = {"Rainbow", "Mega", "Gold"},
