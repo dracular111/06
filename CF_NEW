@@ -20,10 +20,10 @@ getgenv().UserConfig = {
 
         --Epic--
         ["Green Bean"] = 5,
-        ["Mushroom"] = 100,
+        ["Mushroom"] = 50,
 
         --Rare--
-        ["Bamboo"] = 100,
+        ["Bamboo"] = 50,
         ["Pineapple"] = 20,
         ["Cactus"] = 40,
         ["Corn"] = 35,
