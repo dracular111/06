@@ -29,10 +29,10 @@ getgenv().UserConfig = {
         ["Grape"] = 1,
         ["Banana"] = 1,
         ["Green Bean"] = 10,
-        ["Mushroom"] = 20,
+        ["Mushroom"] = 50,
 
         --Rare--
-        ["Bamboo"] = 20,
+        ["Bamboo"] = 50,
         ["Pineapple"] = 10,
         ["Cactus"] = 20,
         ["Corn"] = 15,
