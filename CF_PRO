@@ -220,7 +220,7 @@ getgenv().UserConfig = {
 
     ["Blacklist Seed"] = {
         "Mega",
-        "Gold",
+        --"Gold",
         --"Rainbow",
         "Dragon's Breath",
         "Hypno Bloom",
