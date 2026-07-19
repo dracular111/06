@@ -139,13 +139,6 @@ getgenv().UserConfig = {
     },
     ["Auto Plant"] = false,
     ["Limit Auto Plant"] = 700,
-    ["Mail To Username"] = {},
-    ["Items To Mail"] = {
-        ["Pet"] = {},
-        ["Seed"] = {},
-        ["Gear"] = {},
-    },
-    ["Claim Mail"] = true,
 
     ["Blacklist Shovel"] = {
         "Rainbow",
