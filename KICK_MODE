@@ -1,3 +1,5 @@
+task.wait(50)
+
 repeat
     task.wait()
 until game:IsLoaded()
