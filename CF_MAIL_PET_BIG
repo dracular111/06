@@ -10,7 +10,7 @@ getgenv().MailConfig = {
             ["Golden Dragonfly"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
             ["Unicorn"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
             ["Raccoon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Firefly"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+            ["Firefly"] = {Big = 999, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
             ["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 5, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
             ["Butterfly"] = {Big = 1, Huge = 1, Rainbow = 5, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
             ["Frog"] = {Big = 5, Huge = 1, Rainbow = 5, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
