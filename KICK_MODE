@@ -20,7 +20,7 @@ while task.wait(300) do
     local Config = getgenv().LOADED_CONFIG
     local Money = Sheckles.Value
 
-    if Config == 1 and Money >= 100_000_000 then
+    if Config == 1 and Money >= 110_000_000 then
         warn(string.format(
             "[CONFIG WATCHER] CF_NEW -> CF_MID | Sheckles: %s",
             Money
@@ -30,7 +30,7 @@ while task.wait(300) do
         break
     end
 
-    if Config == 2 and Money >= 500_000_000 then
+    if Config == 2 and Money >= 510_000_000 then
         warn(string.format(
             "[CONFIG WATCHER] CF_MID -> CF_PRO | Sheckles: %s",
             Money
