@@ -16,7 +16,7 @@ until getgenv().LOADED_CONFIG ~= nil
 
 print("[CONFIG WATCHER] Started | Current Config:", getgenv().LOADED_CONFIG)
 
-while task.wait(60) do
+while task.wait(300) do
     local Config = getgenv().LOADED_CONFIG
     local Money = Sheckles.Value
 
