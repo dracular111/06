@@ -32,7 +32,7 @@ getgenv().MailConfig = {
             --["Dragon's Breath"] = {Amount = 1, To = {}},
             --["Hypno Bloom"] = {Amount = 1, To = {}},
             --["Moon Bloom"] = {Amount = 1, To = {}},
-            --["Fire Fern"] = {Amount = 1, To = {}},
+            ["Fire Fern"] = {Amount = 1, To = {"WraithyIViral5IMax18"}},
             --["Carrot"] = {Amount = 200, To = {}},
         },
 
