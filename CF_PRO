@@ -140,13 +140,13 @@ getgenv().UserConfig = {
         },
 
         ["Gears To Use"] = {
-            "Common Watering Can",
-            "Common Sprinkler",
-            "Uncommon Sprinkler",
-            "Rare Sprinkler",
-            "Legendary Sprinkler",
             --"Super Sprinkler",
             --"Super Watering Can",
+            "Legendary Sprinkler",
+            "Rare Sprinkler",
+            "Uncommon Sprinkler",
+            "Common Sprinkler",
+            "Common Watering Can",
         },
     },
 
