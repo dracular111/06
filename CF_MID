@@ -33,16 +33,18 @@ getgenv().UserConfig = {
 
         --Rare--
         ["Bamboo"] = 50,
-        ["Pineapple"] = 5,
-        ["Cactus"] = 20,
-        ["Corn"] = 15,
+        ["Pineapple"] = 20,
+        ["Cactus"] = 40,
+        ["Corn"] = 35,
 
         --Uncommon--
-        ["Apple"] = 10,
-        ["Tomato"] = 7,
-        ["Tulip"] = 20,
-        ["Blueberry"] = 5,
-        ["Strawberry"] = 4,
+        ["Apple"] = 25,
+        ["Tomato"] = 25,
+        ["Tulip"] = 999,
+
+        ["Blueberry"] = 15,
+        ["Strawberry"] = 15,
+        ["Carrot"] = 20,
     },
 
     ["Limit Buy Seed"] = {
