@@ -150,15 +150,15 @@ getgenv().UserConfig = {
         },
     },
 
-    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1515430104044535828/Rzsf-cDZyPAyEwdEV6W-5L0mJ0I1gzuccKelLEI6T_6KNfTBdk3fyhAG51gEifsYNwhq",
-    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Ice Serpent"},
-    ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
+    --["Webhook Pet URL"] = "https://discord.com/api/webhooks/1515430104044535828/Rzsf-cDZyPAyEwdEV6W-5L0mJ0I1gzuccKelLEI6T_6KNfTBdk3fyhAG51gEifsYNwhq",
+    --["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Ice Serpent"},
+    --["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
  	-- WH Seed
-    ["Webhook Seed URL"] = "https://discord.com/api/webhooks/1518462910488121486/_3NHlbfr2UWdRPL5UdKvuzuNgH1xuOYZlnydotDzNwnHvQvo-7znI0ViuiES8Rxpl2YX",
-    ["Webhook Seed Name"] = {"Rainbow", "Gold", "Mega", "Eclipse Bloom", "Sun Bloom", "Star Fruit", "Dragon's Breath", "Hypno Bloom", "Moon Bloom"},
+    --["Webhook Seed URL"] = "https://discord.com/api/webhooks/1518462910488121486/_3NHlbfr2UWdRPL5UdKvuzuNgH1xuOYZlnydotDzNwnHvQvo-7znI0ViuiES8Rxpl2YX",
+    --["Webhook Seed Name"] = {"Rainbow", "Gold", "Mega", "Eclipse Bloom", "Sun Bloom", "Star Fruit", "Dragon's Breath", "Hypno Bloom", "Moon Bloom"},
     	-- WH Gear
-    ["Webhook Gear URL"] = "https://discord.com/api/webhooks/1521942343316410530/1EGZuUwOYJNWZb_b8lI3PKWG4Zqhrf44BHnuJjaGR9g-3rn532-04UNeZTsNJEk_jCH-",
-    ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
+    --["Webhook Gear URL"] = "https://discord.com/api/webhooks/1521942343316410530/1EGZuUwOYJNWZb_b8lI3PKWG4Zqhrf44BHnuJjaGR9g-3rn532-04UNeZTsNJEk_jCH-",
+    --["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
     ["Harvest Mutation Only"] = {
         --"Bamboo", -- Chỉ thu hoạch Bamboo đột biến (bất kỳ loại đột biến nào)
         --"Mushroom",
