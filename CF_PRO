@@ -16,7 +16,7 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 20,
         ["Pomegranate"] = 15,
         ["Gold"] = 999,
-        ["Mega"] = 999,
+        --["Mega"] = 999,
         ["Rainbow"] = 999,
         --Legendary--
         ["Rocket Pop"] = 10,
