@@ -1,0 +1,63 @@
+local LIST_NEW = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/dracular111/06/main/LIST_NEW.lua"
+))()
+
+local LIST_TRADE = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/dracular111/06/main/LIST_TRADE.lua"
+))()
+
+getgenv().MailConfig = {
+    ["Mail Time Window"] = getgenv().MAIL_TIME_WINDOW,
+
+    ["Claim Mail"] = false,
+    ["Mail Cooldown Secs"] = {120, 360},
+    ["Mail To Username"] = {},
+    ["Items To Mail"] = {
+        ["Pet"] = {
+            ["Unicorn"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            ["Golden Dragonfly"] = {Normal = 6, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            ["Firefly"] = {Normal = 6, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+
+            ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
+            ["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
+            ["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706}},
+            ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
+            ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
+
+            ["Frog"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+            ["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+            ["Owl"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+            ["Deer"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+            ["Robin"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+            ["Bee"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+            ["Turtle"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+            ["Bear"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+            ["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+
+        },
+
+        ["Seed"] = {
+            ["Acorn"] = {Amount = 3, To = LIST_TRADE},
+            ["Eclipse Bloom"] = {Amount = 1, To = LIST_TRADE},
+            ["Star Fruit"] = {Amount = 1, To = LIST_TRADE},
+            ["Dragon's Breath"] = {Amount = 1, To = LIST_TRADE},
+            ["Sun Bloom"] = {Amount = 1, To = LIST_TRADE},
+
+            ["Hypno Bloom"] = {Amount = 1, To = LIST_NEW},
+            ["Moon Bloom"] = {Amount = 1, To = LIST_NEW},
+            --["Rocket Pop"] = {Amount = 1, To = LIST_TRADE},
+            --["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
+            --["Fire Fern"] = {Amount = 1, To = LIST_TRADE},
+            --["Pineapple"] = {Amount = 50, To = LIST_TRADE},
+
+            --["Rainbow"] = {Amount = 3, To = LIST_TRADE},
+            --["Gold"] = {Amount = 3, To = LIST_TRADE},
+            ["Mega"] = {Amount = 3, To = LIST_TRADE},
+        },
+
+        ["Gear"] = {
+            ["Super Sprinkler"] = {Amount = 2, To = LIST_TRADE},
+            ["Super Watering Can"] = {Amount = 2, To = LIST_TRADE},
+        },
+    }
+}
