@@ -41,6 +41,8 @@ getgenv().UserConfig = {
 
     ["Limit Buy Seed"] = {
         --Legendary--
+        ["Star Fruit"] = 999,
+        ["Sun Bloom"] = 999,
         ["Moon Bloom"] = 10,
         ["Venom Spitter"] = 1,
         ["Fire Fern"] = 1,
