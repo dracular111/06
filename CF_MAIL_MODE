@@ -37,7 +37,6 @@ getgenv().MailConfig = {
         },
 
         ["Seed"] = {
-            ["Acorn"] = {Amount = 3, To = LIST_TRADE},
             ["Eclipse Bloom"] = {Amount = 1, To = LIST_TRADE},
             ["Star Fruit"] = {Amount = 1, To = LIST_TRADE},
             ["Dragon's Breath"] = {Amount = 1, To = LIST_TRADE},
