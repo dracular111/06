@@ -228,7 +228,7 @@ getgenv().UserConfig = {
         "Mega",
         --"Rainbow",
         "Dragon's Breath",
-        --"Hypno Bloom",
+        "Hypno Bloom",
         --"Moon Bloom",
         "Eclipse Bloom",
         "Star Fruit",
