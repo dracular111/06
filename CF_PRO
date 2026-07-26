@@ -179,7 +179,7 @@ getgenv().UserConfig = {
         "Poison Apple",
         "Pomegranate",
         "Venus Fly Trap",
-        "Fire Fern",
+        --"Fire Fern",
         "Rocket Pop",
         "Sunflower",
         "Cherry",
@@ -193,6 +193,7 @@ getgenv().UserConfig = {
         --"Grape",
         --"Banana",
         --"Green Bean",
+        ["Fire Fern"] = {"Rainbow", "Mega", "Gold"}
         ["Dragon Fruit"] = {"Rainbow", "Mega", "Gold"},
         ["Acorn"] = {"Rainbow", "Mega", "Gold"},
         ["Mango"] = {"Rainbow", "Mega", "Gold"},
