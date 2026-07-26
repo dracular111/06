@@ -9,7 +9,7 @@ getgenv().UserConfig = {
     ["Limit Plant Seed"] = {
         --Mythic--
         --["Dragon's Breath"] = 10,
-        --["Hypno Bloom"] = 10,
+        ["Hypno Bloom"] = 15,
         ["Moon Bloom"] = 15,
         ["Venom Spitter"] = 50,
         ["Venus Fly Trap"] = 30,
@@ -228,7 +228,7 @@ getgenv().UserConfig = {
         "Mega",
         --"Rainbow",
         "Dragon's Breath",
-        "Hypno Bloom",
+        --"Hypno Bloom",
         --"Moon Bloom",
         "Eclipse Bloom",
         "Star Fruit",
