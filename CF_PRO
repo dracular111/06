@@ -21,7 +21,7 @@ getgenv().UserConfig = {
         --Legendary--
         ["Rocket Pop"] = 10,
         ["Fire Fern"] = 50,
-        ["Cherry"] = 40,
+        ["Cherry"] = 30,
         ["Acorn"] = 10,
         ["Dragon Fruit"] = 10,
 
@@ -182,7 +182,7 @@ getgenv().UserConfig = {
         --"Fire Fern",
         "Rocket Pop",
         "Sunflower",
-        "Cherry",
+        --"Cherry",
         "Mushroom",
         "Bamboo",
         "Tulip",
@@ -194,6 +194,7 @@ getgenv().UserConfig = {
         --"Banana",
         --"Green Bean",
         ["Fire Fern"] = {"Rainbow", "Mega", "Gold"},
+        ["Cherry"] = {"Rainbow", "Mega", "Gold"},
         ["Dragon Fruit"] = {"Rainbow", "Mega", "Gold"},
         ["Acorn"] = {"Rainbow", "Mega", "Gold"},
         ["Mango"] = {"Rainbow", "Mega", "Gold"},
