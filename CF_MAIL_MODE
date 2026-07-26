@@ -51,7 +51,7 @@ getgenv().MailConfig = {
 
             --["Rainbow"] = {Amount = 3, To = LIST_TRADE},
             --["Gold"] = {Amount = 3, To = LIST_TRADE},
-            ["Mega"] = {Amount = 3, To = LIST_TRADE},
+            ["Mega"] = {Amount = 5, To = LIST_TRADE},
         },
 
         ["Gear"] = {
