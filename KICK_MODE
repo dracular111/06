@@ -30,7 +30,7 @@ while task.wait(300) do
         break
     end
 
-    if Config == 2 and Money >= 520_000_000 then
+    if Config == 2 and Money >= 550_000_000 then
         warn(string.format(
             "[CONFIG WATCHER] CF_MID -> CF_PRO | Sheckles: %s",
             Money
