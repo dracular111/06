@@ -26,7 +26,7 @@ getgenv().MailConfig = {
         },
 
         ["Seed"] = {
-            ["Acorn"] = {Amount = 1, To = {"TigerlHOrbitUHCrims0"}},
+            ["Acorn"] = {Amount = 1, To = TigerlHOrbitUHCrims0},
             --["Rainbow"] = {Amount = 1, To = {""}},
             --["Gold"] = {Amount = 5, To = {""}},
             --["Mega"] = {Amount = 1, To = {""}},
