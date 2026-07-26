@@ -2,7 +2,7 @@ return {
     "St0rmIuCelestial5125",
     "Echos1SkyR183812",
     "TitannbDragonWbLegen",
-    "Roguea3Pixelx3Sparkl",
+    --"Roguea3Pixelx3Sparkl", --7day face
     "NovaUVDancerp",
     "BlazeRdShadeg111734",
     "Xz_SwitchIHSkat3rrHP",
