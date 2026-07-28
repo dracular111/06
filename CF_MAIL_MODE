@@ -34,7 +34,7 @@ getgenv().MailConfig = {
             ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
 
             ["Bunny"] = {Normal = 1, To = LIST_PET_RAC},
-            ["Deer"] = {Normal = 1, To = LIST_PET_RAC},
+            ["Deer"] = {Normal = 2, To = LIST_PET_RAC},
             --["Robin"] = {Normal = 1, To = {"StarHxBlockO119176", "Arrowl3Rogue73Neon16", "H3r0VqEch0X31561", "Blast01Primalp121774", "TurboRySaberQ46", "TurboriSparkt21", "AshenRZDuckCZScythe1", "Novar4DarkU"}},
            
             --["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
