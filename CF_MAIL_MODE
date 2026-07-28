@@ -10,6 +10,10 @@ local LIST_BIGPET = loadstring(game:HttpGet(
     "https://raw.githubusercontent.com/dracular111/06/main/LIST_BIGPET.lua"
 ))()
 
+local LIST_PET_RAC = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/dracular111/06/main/LIST_PET_RAC.lua"
+))()
+
 
 getgenv().MailConfig = {
     ["Mail Time Window"] = getgenv().MAIL_TIME_WINDOW,
@@ -29,11 +33,16 @@ getgenv().MailConfig = {
             ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
             ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
 
+            ["Bunny"] = {Normal = 1, To = LIST_PET_RAC},
+            ["Deer"] = {Normal = 1, To = LIST_PET_RAC},
+            ["Robin"] = {Normal = 1, To = {"StarHxBlockO119176", "Arrowl3Rogue73Neon16", "H3r0VqEch0X31561", "Blast01Primalp121774", "TurboRySaberQ46", "TurboriSparkt21", "AshenRZDuckCZScythe1", "Novar4DarkU"}},
+           
+            --["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Deer"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Robin"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+
             ["Frog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Owl"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Deer"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Robin"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Bee"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Turtle"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Bear"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
