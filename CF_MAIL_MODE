@@ -14,9 +14,9 @@ getgenv().MailConfig = {
     ["Mail To Username"] = {},
     ["Items To Mail"] = {
         ["Pet"] = {
-            ["Unicorn"] = {Normal = 6, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
-            ["Golden Dragonfly"] = {Normal = 6, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
-            ["Firefly"] = {Normal = 6, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            ["Unicorn"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            ["Golden Dragonfly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            ["Firefly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
 
             ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
             ["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
