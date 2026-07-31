@@ -30,7 +30,7 @@ return {
 --list new
     "GamerBUOrbitT170569",
     "StormyN7Dragonz18723",
-    "PandaUwTurboL177650",
+    --"PandaUwTurboL177650",
     "Blizzard8RWraith2194",
     "Xz_FlickdbNightfallB",
     "XzCryptbzSky3zX",
