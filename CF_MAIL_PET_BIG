@@ -1,3 +1,7 @@
+local LIST_BIGPET = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/dracular111/06/main/LIST_BIGPET.lua"
+))()
+
 getgenv().MailConfig = {
     ["Mail Time Window"] = getgenv().MAIL_TIME_WINDOW,
 
@@ -6,23 +10,23 @@ getgenv().MailConfig = {
     ["Mail To Username"] = {},
     ["Items To Mail"] = {
         ["Pet"] = {
-            ["Bald Eagle"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Golden Dragonfly"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Unicorn"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Raccoon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Firefly"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 5, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Butterfly"] = {Big = 1, Huge = 1, Rainbow = 5, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Frog"] = {Big = 5, Huge = 1, Rainbow = 5, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Bunny"] = {Big = 5, Huge = 1, Rainbow = 5, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Owl"] = {Big = 5, Huge = 1, Rainbow = 5, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Deer"] = {Big = 5, Huge = 1, Rainbow = 5, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Robin"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Bee"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Turtle"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Bear"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
-            ["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzViraliuStaryuCircu", "XzNightfalluULight0z"}},
+            ["Bald Eagle"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Golden Dragonfly"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Unicorn"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Raccoon"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Firefly"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 5, To = LIST_BIGPET},
+            ["Butterfly"] = {Big = 1, Huge = 1, Rainbow = 5, To = LIST_BIGPET},
+            ["Frog"] = {Big = 5, Huge = 1, Rainbow = 5, To = LIST_BIGPET},
+            ["Bunny"] = {Big = 5, Huge = 1, Rainbow = 5, To = LIST_BIGPET},
+            ["Owl"] = {Big = 5, Huge = 1, Rainbow = 5, To = LIST_BIGPET},
+            ["Deer"] = {Big = 5, Huge = 1, Rainbow = 5, To = LIST_BIGPET},
+            ["Robin"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Bee"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Turtle"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Bear"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
         },
 
         ["Seed"] = {
