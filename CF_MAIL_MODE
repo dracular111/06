@@ -27,11 +27,11 @@ getgenv().MailConfig = {
             ["Golden Dragonfly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
             ["Firefly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
 
-            ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
-            ["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
-            ["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
-            ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
-            --["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
+            ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
+            ["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
+            ["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
+            ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
+            --["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
 
             --["Bunny"] = {Normal = 1, To = LIST_PET_RAC},
             --["Deer"] = {Normal = 2, To = LIST_PET_RAC},
