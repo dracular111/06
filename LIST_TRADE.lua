@@ -29,7 +29,7 @@ return {
     --"RogueXWtShadowb1306",
 --list new
     "GamerBUOrbitT170569",
-    "StormyN7Dragonz18723",
+    --"StormyN7Dragonz18723",
     --"PandaUwTurboL177650",
     "Blizzard8RWraith2194",
     "Xz_FlickdbNightfallB",
@@ -45,7 +45,7 @@ return {
     "XzLuckyc7Crazec7Maxz",
     "MasterkBPixelNBThorn",
     "CoreN6PrismV148372",
-    "MirageI2Legendp",
+    --"MirageI2Legendp",
     "XzRaventWRavenczX150",
     "GlitchfxLightX1321",
 }
