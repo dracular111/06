@@ -23,14 +23,14 @@ getgenv().MailConfig = {
     ["Mail To Username"] = {},
     ["Items To Mail"] = {
         ["Pet"] = {
-            ["Unicorn"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
-            ["Golden Dragonfly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
-            ["Firefly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            --["Unicorn"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            --["Golden Dragonfly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            --["Firefly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
 
-            ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
-            ["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
-            ["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
-            ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
+            --["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
+            --["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
+            --["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
+            --["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
             --["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
 
             --["Bunny"] = {Normal = 1, To = LIST_PET_RAC},
@@ -51,9 +51,9 @@ getgenv().MailConfig = {
         },
 
         ["Seed"] = {
-            ["Eclipse Bloom"] = {Amount = 1, To = LIST_TRADE},
-            ["Star Fruit"] = {Amount = 1, To = LIST_TRADE},
-            ["Dragon's Breath"] = {Amount = 1, To = LIST_TRADE},
+            --["Eclipse Bloom"] = {Amount = 1, To = LIST_TRADE},
+            --["Star Fruit"] = {Amount = 1, To = LIST_TRADE},
+            --["Dragon's Breath"] = {Amount = 1, To = LIST_TRADE},
             --["Sun Bloom"] = {Amount = 1, To = LIST_TRADE},
 
             --["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
@@ -69,8 +69,8 @@ getgenv().MailConfig = {
         },
 
         ["Gear"] = {
-            ["Super Sprinkler"] = {Amount = 10, To = LIST_TRADE},
-            ["Super Watering Can"] = {Amount = 5, To = LIST_TRADE},
+            --["Super Sprinkler"] = {Amount = 10, To = LIST_TRADE},
+            --["Super Watering Can"] = {Amount = 5, To = LIST_TRADE},
         },
     }
 }
