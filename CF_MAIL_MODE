@@ -70,7 +70,7 @@ getgenv().MailConfig = {
 
         ["Gear"] = {
             ["Super Sprinkler"] = {Amount = 10, To = LIST_TRADE},
-            ["Super Watering Can"] = {Amount = 6, To = LIST_TRADE},
+            ["Super Watering Can"] = {Amount = 5, To = LIST_TRADE},
         },
     }
 }
