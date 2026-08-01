@@ -31,22 +31,22 @@ getgenv().MailConfig = {
             ["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
             ["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
             ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
-            ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
+            --["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"V3nomSfEchoQ1706"}},
 
-            ["Bunny"] = {Normal = 1, To = LIST_PET_RAC},
-            ["Deer"] = {Normal = 2, To = LIST_PET_RAC},
+            --["Bunny"] = {Normal = 1, To = LIST_PET_RAC},
+            --["Deer"] = {Normal = 2, To = LIST_PET_RAC},
             --["Robin"] = {Normal = 1, To = {"StarHxBlockO119176", "Arrowl3Rogue73Neon16", "H3r0VqEch0X31561", "Blast01Primalp121774", "TurboRySaberQ46", "TurboriSparkt21", "AshenRZDuckCZScythe1", "Novar4DarkU"}},
            
             --["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             --["Deer"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             --["Robin"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
 
-            ["Frog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Owl"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Bee"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Turtle"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Bear"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Frog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Owl"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Bee"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Turtle"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Bear"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
 
         },
 
@@ -54,9 +54,9 @@ getgenv().MailConfig = {
             ["Eclipse Bloom"] = {Amount = 1, To = LIST_TRADE},
             ["Star Fruit"] = {Amount = 1, To = LIST_TRADE},
             ["Dragon's Breath"] = {Amount = 1, To = LIST_TRADE},
-            ["Sun Bloom"] = {Amount = 1, To = LIST_TRADE},
+            --["Sun Bloom"] = {Amount = 1, To = LIST_TRADE},
 
-            ["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
+            --["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
             --["Moon Bloom"] = {Amount = 1, To = LIST_TRADE},
             --["Rocket Pop"] = {Amount = 1, To = LIST_TRADE},
             --["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
@@ -65,12 +65,12 @@ getgenv().MailConfig = {
 
             --["Rainbow"] = {Amount = 3, To = LIST_TRADE},
             --["Gold"] = {Amount = 3, To = LIST_TRADE},
-            ["Mega"] = {Amount = 5, To = LIST_TRADE},
+            --["Mega"] = {Amount = 5, To = LIST_TRADE},
         },
 
         ["Gear"] = {
-            ["Super Sprinkler"] = {Amount = 2, To = LIST_TRADE},
-            ["Super Watering Can"] = {Amount = 2, To = LIST_TRADE},
+            ["Super Sprinkler"] = {Amount = 10, To = LIST_TRADE},
+            ["Super Watering Can"] = {Amount = 6, To = LIST_TRADE},
         },
     }
 }
