@@ -12,7 +12,7 @@ getgenv().UserConfig = {
         --["Mega"] = 999,
         ["Rainbow"] = 999,
         ["Hypno Bloom"] = 15,
-        ["Moon Bloom"] = 15,
+        ["Moon Bloom"] = 99,
         --Legendary--
         ["Rocket Pop"] = 10,
         ["Fire Fern"] = 50,
