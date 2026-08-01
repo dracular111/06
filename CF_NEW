@@ -43,8 +43,8 @@ getgenv().UserConfig = {
         --Legendary--
         ["Star Fruit"] = 999,
         ["Sun Bloom"] = 999,
-        ["Moon Bloom"] = 10,
-        ["Venom Spitter"] = 1,
+        --["Moon Bloom"] = 10,
+        --["Venom Spitter"] = 1,
         ["Fire Fern"] = 1,
         ["Rocket Pop"] = 9999,
         ["Cherry"] = 1,
