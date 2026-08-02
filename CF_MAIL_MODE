@@ -23,43 +23,43 @@ getgenv().MailConfig = {
     ["Mail To Username"] = {},
     ["Items To Mail"] = {
         ["Pet"] = {
-            --["Unicorn"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
-            --["Golden Dragonfly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
-            --["Firefly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            ["Unicorn"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            ["Golden Dragonfly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            ["Firefly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
 
-            --["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
-            --["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
-            --["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
-            --["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
-            --["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Xz_SwitchIHSkat3rrHP"}},
+            ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzPix3lrCBac0nvzX118", "Shr3dY9Sparkj1470", "Claw1IOblivionI14732"}},
+            ["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzPix3lrCBac0nvzX118", "Shr3dY9Sparkj1470", "Claw1IOblivionI14732"}},
+            ["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzPix3lrCBac0nvzX118", "Shr3dY9Sparkj1470", "Claw1IOblivionI14732"}},
+            ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzPix3lrCBac0nvzX118", "Shr3dY9Sparkj1470", "Claw1IOblivionI14732"}},
+            ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzPix3lrCBac0nvzX118", "Shr3dY9Sparkj1470", "Claw1IOblivionI14732"}},
 
             --["Bunny"] = {Normal = 1, To = LIST_PET_RAC},
             --["Deer"] = {Normal = 2, To = LIST_PET_RAC},
             --["Robin"] = {Normal = 1, To = {"StarHxBlockO119176", "Arrowl3Rogue73Neon16", "H3r0VqEch0X31561", "Blast01Primalp121774", "TurboRySaberQ46", "TurboriSparkt21", "AshenRZDuckCZScythe1", "Novar4DarkU"}},
            
-            --["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            --["Deer"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            --["Robin"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Deer"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Robin"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
 
-            --["Frog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            --["Owl"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            --["Bee"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            --["Turtle"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            --["Bear"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            --["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Frog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Owl"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Bee"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Turtle"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Bear"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
 
         },
 
         ["Seed"] = {
             --["Eclipse Bloom"] = {Amount = 1, To = LIST_TRADE},
-            --["Star Fruit"] = {Amount = 1, To = LIST_TRADE},
-            --["Dragon's Breath"] = {Amount = 1, To = LIST_TRADE},
-            --["Sun Bloom"] = {Amount = 1, To = LIST_TRADE},
+            ["Star Fruit"] = {Amount = 1, To = LIST_TRADE},
+            ["Dragon's Breath"] = {Amount = 1, To = LIST_TRADE},
+            ["Sun Bloom"] = {Amount = 1, To = LIST_TRADE},
 
-            --["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
+            --["Hypno Bloom"] = {Amount = 2, To = LIST_TRADE},
             --["Moon Bloom"] = {Amount = 1, To = LIST_TRADE},
             --["Rocket Pop"] = {Amount = 1, To = LIST_TRADE},
-            --["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
+            ["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
             --["Fire Fern"] = {Amount = 1, To = LIST_TRADE},
             --["Pineapple"] = {Amount = 50, To = LIST_TRADE},
 
@@ -69,8 +69,8 @@ getgenv().MailConfig = {
         },
 
         ["Gear"] = {
-            --["Super Sprinkler"] = {Amount = 10, To = LIST_TRADE},
-            --["Super Watering Can"] = {Amount = 5, To = LIST_TRADE},
+            ["Super Sprinkler"] = {Amount = 1, To = LIST_TRADE},
+            ["Super Watering Can"] = {Amount = 1, To = LIST_TRADE},
         },
     }
 }
