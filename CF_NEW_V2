@@ -1,0 +1,234 @@
+getgenv().UserConfig = {
+    ["FPS Cap"] = 5,
+
+    ["Auto Double Or Nothing"] = false,
+    ["Double Or Nothing Target Wins"] = 1,
+    ["Auto Buy Seed"] = true,
+    ["Auto Plant Seed"] = true,
+
+    ["Limit Plant Seed"] = {
+        --Mythic--
+        ["Gold"] = 999,
+        ["Mega"] = 999,
+        ["Rainbow"] = 999,
+	    	["Amber Cranberry"] = 10,
+		    ["Atlantic Giant Pumpkin"] = 10,
+        ["Conifer Cone"] = 20,
+        ["Maple Venom Spitter"] = 5,
+        ["Maple Venus Fly Trap"] = 5,
+        ["Maple Poison Apple"] = 5,  
+        --["Maple Pomegranate"] = 10,
+        --Legendary--
+        ["Maple Cherry"] = 40,
+        ["Maple Dragon Fruit"] = 20,
+
+        --Epic--
+        ["Maple Green Bean"] = 20,
+        ["Maple Mushroom"] = 50,
+
+        --Rare--
+        ["Maple Bamboo"] = 50,
+        ["Maple Pineapple"] = 40,
+        ["Maple Cactus"] = 40,
+        ["Maple Corn"] = 40,
+
+        --Uncommon--
+        ["Maple Apple"] = 30,
+        ["Maple Tomato"] = 30,
+        ["Maple Tulip"] = 999,
+
+        ["Maple Blueberry"] = 20,
+        ["Maple Strawberry"] = 20,
+        ["Maple Carrot"] = 20,
+    },
+
+    ["Limit Buy Seed"] = {
+        --Legendary--
+	    	["Amber Cranberry"] = 10,
+		    ["Atlantic Giant Pumpkin"] = 10,
+        ["Conifer Cone"] = 20,
+        ["Maple Venom Spitter"] = 5,
+        ["Maple Venus Fly Trap"] = 5,
+        ["Maple Poison Apple"] = 5,  
+        --["Maple Pomegranate"] = 10,
+        ["Maple Cherry"] = 40,
+        ["Maple Dragon Fruit"] = 20,
+
+        --Epic--
+        ["Maple Green Bean"] = 5,
+        ["Maple Mushroom"] = 999,
+
+        --Rare--
+        ["Maple Bamboo"] = 999,
+        ["Maple Pineapple"] = 20,
+        ["Maple Cactus"] = 5,
+        ["Maple Corn"] = 5,
+
+        --Uncommon--
+        ["Maple Apple"] = 5,
+        ["Maple Tomato"] = 5,
+        ["Maple Tulip"] = 20,
+
+        ["Maple Blueberry"] = 5,
+        ["Maple Strawberry"] = 5,
+        ["Maple Carrot"] = 20,
+    },
+
+    ["Favorite"] = {
+        ["Horned Melon"] = {},
+    },
+    ["Buy Pets"] = {
+        --["Butterfly"] = {Normal = 999, Big = 99, Huge = 99, Rainbow = 99},
+        -- Uncommon
+        ["Dog"] = {Big = 99, Huge = 99, Rainbow = 99},
+        
+        -- Rare
+        ["Hedgehog"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Turkey"] = {Big = 99, Huge = 99, Rainbow = 99},
+        
+        -- Legendary
+        ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Swan"] = {Normal = 1, Big = 99, Huge = 99, Rainbow = 99},
+        
+        -- Mythic
+        ["Fox"] = 999,
+        ["Wolf"] = 999,
+
+        -- Super
+        ["Shadow Dragon"] = 999,
+    },
+
+    ["Equip Pets"] = {
+        {"Wolf", 6, 1},
+        {"Fox", 6, 2},
+        {"Swan", 6, 3},
+    },
+
+    ["Expand Plot"] = true,
+    ["Plot Expansions"] = 3,
+    ["Unlock Pet Slots"] = 6,
+
+    ["Auto Collect Seed Packs"] = true,
+
+    ["Gears"] = {
+        ["Buy Gear"] = {
+            ["Syrup Watering Can"] = 100,
+            ["Syrup Sprinkler"] = 100,
+            ["Super Syrup Sprinkler"] = 999, -- Mua vòi si-rô siêu cấp
+            ["Super Syrup Watering Can"] = 999, -- Mua bình tưới si-rô siêu cấp
+            --["Super Magic Mail"] = 999,
+        },
+
+        ["Gears To Use"] = {
+            "Syrup Watering Can",
+            "Syrup Sprinkler",
+            --"Super Syrup Sprinkler", -- Mua vòi si-rô siêu cấp
+            --"Super Syrup Watering Can", -- Mua bình tưới si-rô siêu cấp
+            --"Super Magic Mail",
+        },
+    },
+
+    --["Webhook Pet URL"] = "https://discord.com/api/webhooks/1515430104044535828/Rzsf-cDZyPAyEwdEV6W-5L0mJ0I1gzuccKelLEI6T_6KNfTBdk3fyhAG51gEifsYNwhq",
+    --["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Ice Serpent"},
+    --["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
+ 	-- WH Seed
+    --["Webhook Seed URL"] = "https://discord.com/api/webhooks/1518462910488121486/_3NHlbfr2UWdRPL5UdKvuzuNgH1xuOYZlnydotDzNwnHvQvo-7znI0ViuiES8Rxpl2YX",
+    --["Webhook Seed Name"] = {"Rainbow", "Gold", "Mega", "Eclipse Bloom", "Sun Bloom", "Star Fruit", "Dragon's Breath", "Hypno Bloom", "Moon Bloom"},
+    	-- WH Gear
+    --["Webhook Gear URL"] = "https://discord.com/api/webhooks/1521942343316410530/1EGZuUwOYJNWZb_b8lI3PKWG4Zqhrf44BHnuJjaGR9g-3rn532-04UNeZTsNJEk_jCH-",
+    --["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
+    ["Harvest Mutation Only"] = {
+        --"Bamboo", -- Chỉ thu hoạch Bamboo đột biến (bất kỳ loại đột biến nào)
+        --"Mushroom",
+        --"Rocket Pop",
+    },
+    ["Auto Plant"] = true,
+    ["Limit Auto Plant"] = 700,
+
+    ["Blacklist Shovel"] = {
+        "Gold",
+        "Mega",
+        "Rainbow",
+        "Amber Cranberry",
+        "Atlantic Giant Pumpkin",
+        "Conifer Cone",
+        "Maple Venom Spitter",
+        "Maple Venus Fly Trap",
+        "Maple Poison Apple",
+        "Maple Pomegranate",
+
+        --Legendary--
+        "Maple Cherry",
+        "Maple Dragon Fruit",
+
+        --Epic--
+        "Maple Green Bean",
+        "Maple Mushroom",
+
+        --Rare--
+        "Maple Bamboo",
+        --"Maple Pineapple",
+        --"Maple Cactus",
+       -- "Maple Corn",
+
+        --Uncommon--
+        --"Maple Apple",
+        --"Maple Tomato",
+        "Maple Tulip",
+
+        --"Maple Blueberry",
+        --"Maple Strawberry",
+        "Maple Carrot",
+    },
+
+    ["Shovel Plant Once"] = {
+        --Rare--
+        --"Maple Bamboo",
+        --"Maple Pineapple",
+        --"Maple Cactus",
+       -- "Maple Corn",
+
+        --Uncommon--
+        --"Maple Apple",
+        --"Maple Tomato",
+        --"Maple Tulip",
+
+        --"Maple Blueberry",
+        --"Maple Strawberry",
+        --"Maple Carrot",
+    },
+
+    ["Blacklist Seed"] = {
+        --"Mega",
+        "Amber Cranberry",
+        "Atlantic Giant Pumpkin",
+        "Conifer Cone",
+        --"Maple Venom Spitter",
+        --"Maple Venus Fly Trap",
+        --"Maple Poison Apple",
+        --"Maple Pomegranate",
+
+        --Legendary--
+        --"Maple Cherry",
+        --"Maple Dragon Fruit",
+
+        --Epic--
+        --"Maple Green Bean",
+        --"Maple Mushroom",
+
+        --Rare--
+        --"Maple Bamboo",
+        --"Maple Pineapple",
+        --"Maple Cactus",
+       -- "Maple Corn",
+
+        --Uncommon--
+        --"Maple Apple",
+        --"Maple Tomato",
+        --"Maple Tulip",
+
+        --"Maple Blueberry",
+        --"Maple Strawberry",
+        --"Maple Carrot",
+    },
+}
