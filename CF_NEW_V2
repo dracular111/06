@@ -24,7 +24,7 @@ getgenv().UserConfig = {
         ["Maple Dragon Fruit"] = 20,
 
         --Epic--
-        ["Maple Green Bean"] = 10,
+        ["Maple Green Bean"] = 20,
         ["Maple Mushroom"] = 50,
 
         --Rare--
