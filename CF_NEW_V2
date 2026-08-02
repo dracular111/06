@@ -40,7 +40,7 @@ getgenv().UserConfig = {
 
         ["Maple Blueberry"] = 20,
         ["Maple Strawberry"] = 20,
-        ["Maple Carrot"] = 20,
+        ["Maple Carrot"] = 999,
     },
 
     ["Limit Buy Seed"] = {
@@ -68,11 +68,11 @@ getgenv().UserConfig = {
         --Uncommon--
         ["Maple Apple"] = 5,
         ["Maple Tomato"] = 5,
-        ["Maple Tulip"] = 20,
+        ["Maple Tulip"] = 999,
 
         ["Maple Blueberry"] = 5,
         ["Maple Strawberry"] = 5,
-        ["Maple Carrot"] = 20,
+        ["Maple Carrot"] = 999,
     },
 
     ["Favorite"] = {
