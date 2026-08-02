@@ -79,7 +79,6 @@ getgenv().UserConfig = {
         ["Horned Melon"] = {},
     },
     ["Buy Pets"] = {
-        --["Butterfly"] = {Normal = 999, Big = 99, Huge = 99, Rainbow = 99},
         -- Uncommon
         ["Dog"] = {Big = 99, Huge = 99, Rainbow = 99},
         
