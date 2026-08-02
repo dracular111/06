@@ -113,10 +113,10 @@ getgenv().UserConfig = {
 
     ["Gears"] = {
         ["Buy Gear"] = {
-            ["Syrup Watering Can"] = 100,
-            ["Syrup Sprinkler"] = 100,
-            ["Super Syrup Sprinkler"] = 999, -- Mua vòi si-rô siêu cấp
-            ["Super Syrup Watering Can"] = 999, -- Mua bình tưới si-rô siêu cấp
+            ["Syrup Watering Can"] = 50,
+            ["Syrup Sprinkler"] = 50,
+            ["Super Syrup Sprinkler"] = 100,
+            ["Super Syrup Watering Can"] = 100,
             --["Super Magic Mail"] = 999,
         },
 
