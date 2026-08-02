@@ -159,7 +159,7 @@ getgenv().UserConfig = {
         "Maple Bamboo",
         --"Maple Pineapple",
         --"Maple Cactus",
-       -- "Maple Corn",
+        --"Maple Corn",
 
         --Uncommon--
         --"Maple Apple",
