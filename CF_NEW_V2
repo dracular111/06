@@ -1,5 +1,5 @@
 getgenv().UserConfig = {
-	["World"] = "Fall Harvest"
+	["World"] = "Fall Harvest",
     ["FPS Cap"] = 5,
 
     ["Auto Double Or Nothing"] = false,
