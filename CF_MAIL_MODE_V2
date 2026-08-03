@@ -14,7 +14,7 @@ getgenv().MailConfig = {
     ["Mail To Username"] = {},
     ["Items To Mail"] = {
         ["Pet"] = {
-            ["Dog"] = {Big = 2, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            ["Dog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Hedgehog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Turkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Squirrel"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
@@ -31,6 +31,9 @@ getgenv().MailConfig = {
             --["Rainbow"] = {Amount = 3, To = LIST_TRADE},
             --["Gold"] = {Amount = 3, To = LIST_TRADE},
             --["Mega"] = {Amount = 5, To = LIST_TRADE},
+            ["Maple Mushroom"] = {Amount = 10, To = LIST_TRADE},
+            ["Maple Bamboo"] = {Amount = 100, To = LIST_TRADE},
+
         },
 
         ["Gear"] = {
