@@ -20,8 +20,8 @@ getgenv().MailConfig = {
             ["Squirrel"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Swan"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
 
-            ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzNe0netMirage0zX118", "WraithCiStealth21720", "Pix3lp3ArrowJ3Rock3t", "XzShad3R6Cor3JzX1174", "LavazPCraft8PGhost18"}},
-            ["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzNe0netMirage0zX118", "WraithCiStealth21720", "Pix3lp3ArrowJ3Rock3t", "XzShad3R6Cor3JzX1174", "LavazPCraft8PGhost18"}},
+            ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzNe0netMirage0zX118", "WraithCiStealth21720", "Pix3lp3ArrowJ3Rock3t", "LavaspFireE1174", "XzShad3R6Cor3JzX1174"}},
+            ["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzNe0netMirage0zX118", "WraithCiStealth21720", "Pix3lp3ArrowJ3Rock3t", "LavaspFireE1174", "XzShad3R6Cor3JzX1174"}},
         },
 
         ["Seed"] = {
