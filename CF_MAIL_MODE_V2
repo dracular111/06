@@ -2,6 +2,10 @@ local LIST_TRADE = loadstring(game:HttpGet(
     "https://raw.githubusercontent.com/dracular111/06/main/LIST_TRADE_V2.lua"
 ))()
 
+local LIST_PET = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/dracular111/06/main/LIST_PET.lua"
+))()
+
 local LIST_BIGPET = loadstring(game:HttpGet(
     "https://raw.githubusercontent.com/dracular111/06/main/LIST_BIGPET.lua"
 ))()
@@ -20,8 +24,8 @@ getgenv().MailConfig = {
             ["Squirrel"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Swan"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
 
-            ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzNe0netMirage0zX118", "WraithCiStealth21720", "Pix3lp3ArrowJ3Rock3t", "LavaspFireE1174", "XzShad3R6Cor3JzX1174"}},
-            ["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzNe0netMirage0zX118", "WraithCiStealth21720", "Pix3lp3ArrowJ3Rock3t", "LavaspFireE1174", "XzShad3R6Cor3JzX1174"}},
+            ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
+            ["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
         },
 
         ["Seed"] = {
