@@ -26,8 +26,8 @@ getgenv().MailConfig = {
 
         ["Seed"] = {
             ["Amber Cranberry"] = {Amount = 1, To = LIST_TRADE},
-            --["Atlantic Giant Pumpkin"] = {Amount = 1, To = LIST_TRADE},
-            --["Conifer Cone"] = {Amount = 1, To = LIST_TRADE},
+            ["Atlantic Giant Pumpkin"] = {Amount = 1, To = LIST_TRADE},
+            ["Conifer Cone"] = {Amount = 1, To = LIST_TRADE},
             --["Rainbow"] = {Amount = 3, To = LIST_TRADE},
             --["Gold"] = {Amount = 3, To = LIST_TRADE},
             --["Mega"] = {Amount = 5, To = LIST_TRADE},
