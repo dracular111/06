@@ -38,8 +38,8 @@ getgenv().UserConfig = {
         ["Maple Tomato"] = 40,
         ["Maple Tulip"] = 999,
 
-        ["Maple Blueberry"] = 30,
-        ["Maple Strawberry"] = 30,
+        ["Maple Blueberry"] = 40,
+        ["Maple Strawberry"] = 40,
         ["Maple Carrot"] = 999,
     },
 
