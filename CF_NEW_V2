@@ -29,17 +29,17 @@ getgenv().UserConfig = {
 
         --Rare--
         ["Maple Bamboo"] = 999,
-        ["Maple Pineapple"] = 40,
-        ["Maple Cactus"] = 40,
-        ["Maple Corn"] = 40,
+        ["Maple Pineapple"] = 60,
+        ["Maple Cactus"] = 60,
+        ["Maple Corn"] = 60,
 
         --Uncommon--
-        ["Maple Apple"] = 35,
-        ["Maple Tomato"] = 30,
+        ["Maple Apple"] = 50,
+        ["Maple Tomato"] = 40,
         ["Maple Tulip"] = 999,
 
-        ["Maple Blueberry"] = 20,
-        ["Maple Strawberry"] = 20,
+        ["Maple Blueberry"] = 30,
+        ["Maple Strawberry"] = 30,
         ["Maple Carrot"] = 999,
     },
 
