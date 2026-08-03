@@ -204,10 +204,10 @@ getgenv().UserConfig = {
 
         --Epic--
         --"Maple Green Bean",
-        --"Maple Mushroom",
+        "Maple Mushroom",
 
         --Rare--
-        --"Maple Bamboo",
+        "Maple Bamboo",
         --"Maple Pineapple",
         --"Maple Cactus",
        -- "Maple Corn",
