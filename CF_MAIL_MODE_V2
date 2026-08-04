@@ -37,6 +37,7 @@ getgenv().MailConfig = {
             --["Mega"] = {Amount = 5, To = LIST_TRADE},
             ["Maple Mushroom"] = {Amount = 5, To = LIST_TRADE},
             ["Maple Bamboo"] = {Amount = 100, To = LIST_TRADE},
+            ["Rainbow"] = {Amount = 1, To = LIST_TRADE},
 
         },
 
