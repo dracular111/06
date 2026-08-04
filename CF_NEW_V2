@@ -192,7 +192,7 @@ getgenv().UserConfig = {
 
     ["Blacklist Seed"] = {
         --"Mega",
-        "Rainbow",
+        --"Rainbow",
         "Amber Cranberry",
         "Atlantic Giant Pumpkin",
         "Conifer Cone",
@@ -210,7 +210,7 @@ getgenv().UserConfig = {
         "Maple Mushroom",
 
         --Rare--
-        --"Maple Bamboo",
+        "Maple Bamboo",
         --"Maple Pineapple",
         --"Maple Cactus",
        -- "Maple Corn",
