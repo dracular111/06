@@ -80,11 +80,11 @@ getgenv().UserConfig = {
     },
     ["Buy Pets"] = {
         -- Uncommon
-        ["Dog"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Dog"] = {Huge = 99, Rainbow = 99},
         
         -- Rare
-        ["Hedgehog"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Turkey"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Hedgehog"] = {Huge = 99, Rainbow = 99},
+        ["Turkey"] = {Huge = 99, Rainbow = 99},
         
         -- Legendary
         ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
