@@ -1,7 +1,7 @@
 return {
-    "Fr0stbiteZQB0ltc1012",
-    "PixelShRiftl160257",
-    "Xz_Rav3n9oBlaz3XoCod",
-    "ThornetClawE169238",
-    "AquaiIPanda493",
+    "Claw12HazeT135446",
+    "LavaKOFuryOOVoid1325",
+    "XzPhoenix0QLuckyozX1",
+    "XzAcecTVenatorXTShif",
+    "RogueLaBlazeM1876",
 }
