@@ -15,27 +15,27 @@ getgenv().UserConfig = {
         --["Amber Cranberry"] = 10,
         --["Atlantic Giant Pumpkin"] = 999,
         --["Conifer Cone"] = 20,
-        ["Maple Venom Spitter"] = 50,
-        ["Maple Venus Fly Trap"] = 20,
-        ["Maple Poison Apple"] = 30,  
+        --["Maple Venom Spitter"] = 50,
+        --["Maple Venus Fly Trap"] = 20,
+        --["Maple Poison Apple"] = 30,  
         --["Maple Pomegranate"] = 10,
         --Legendary--
         ["Maple Cherry"] = 40,
-        ["Maple Dragon Fruit"] = 20,
+        ["Maple Dragon Fruit"] = 30,
 
         --Epic--
-        ["Maple Green Bean"] = 20,
+        ["Maple Green Bean"] = 50,
         ["Maple Mushroom"] = 999,
 
         --Rare--
         ["Maple Bamboo"] = 999,
-        ["Maple Pineapple"] = 60,
-        ["Maple Cactus"] = 60,
-        ["Maple Corn"] = 60,
+        ["Maple Pineapple"] = 70,
+        ["Maple Cactus"] = 70,
+        ["Maple Corn"] = 70,
 
         --Uncommon--
-        ["Maple Apple"] = 50,
-        ["Maple Tomato"] = 40,
+        ["Maple Apple"] = 60,
+        ["Maple Tomato"] = 60,
         ["Maple Tulip"] = 999,
 
         ["Maple Blueberry"] = 40,
