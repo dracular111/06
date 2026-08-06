@@ -112,7 +112,9 @@ getgenv().UserConfig = {
     ["Unlock Pet Slots"] = 6,
 
     ["Auto Collect Seed Packs"] = true,
-
+	["Auto Use Cornucopia"] = true,
+	["Auto Use Egg"] = "All",
+	["Auto Use Seed Pack"] = "All",
     ["Gears"] = {
         ["Buy Gear"] = {
 			["Harp"] = 100, -- Mua đàn Harp
