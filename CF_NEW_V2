@@ -1,230 +1,166 @@
+if not game:IsLoaded() then game.Loaded:Wait() end
 getgenv().UserConfig = {
-
-    ["FPS Cap"] = 5,
-	["World"] = "Fall Harvest",
     ["Auto Double Or Nothing"] = false,
     ["Double Or Nothing Target Wins"] = 1,
+    ["FPS Cap"] = 5,
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
 
     ["Limit Plant Seed"] = {
-        --Mythic--
-        ["Gold"] = 999,
-        ["Mega"] = 999,
-        ["Rainbow"] = 999,
-        --["Amber Cranberry"] = 10,
-        --["Atlantic Giant Pumpkin"] = 999,
-        --["Conifer Cone"] = 20,
-        ["Maple Venom Spitter"] = 50,
-        ["Maple Venus Fly Trap"] = 20,
-        ["Maple Poison Apple"] = 30,  
-        ["Maple Pomegranate"] = 10,
-        --Legendary--
-        ["Maple Cherry"] = 40,
-        ["Maple Dragon Fruit"] = 30,
-
-        --Epic--
-        ["Maple Green Bean"] = 50,
-        ["Maple Mushroom"] = 999,
-
-        --Rare--
-        ["Maple Bamboo"] = 999,
-        ["Maple Pineapple"] = 70,
-        ["Maple Cactus"] = 70,
-        ["Maple Corn"] = 70,
-
-        --Uncommon--
-        ["Maple Apple"] = 60,
-        ["Maple Tomato"] = 60,
-        ["Maple Tulip"] = 999,
-
-        ["Maple Blueberry"] = 40,
-        ["Maple Strawberry"] = 40,
-        ["Maple Carrot"] = 999,
+        ["Maple Carrot"] = 50,
+        ["Maple Tulip"] = 50,
+        ["Maple Bamboo"] = 50,
+        ["Maple Mushroom"] = 100,
     },
 
     ["Limit Buy Seed"] = {
-        --Legendary--
-		["Amber Cranberry"] = 10,
-		["Atlantic Giant Pumpkin"] = 10,
-        --["Conifer Cone"] = 20,
-        --["Maple Venom Spitter"] = 5,
-        --["Maple Venus Fly Trap"] = 5,
-        --["Maple Poison Apple"] = 5,  
-        --["Maple Pomegranate"] = 10,
-        ["Maple Cherry"] = 1,
+        -- Single Harvest
+        ["Maple Carrot"] = 9999,
+        ["Maple Tulip"] = 9999,
+        ["Maple Bamboo"] = 9999,
+        ["Maple Mushroom"] = 9999,
+
+        -- Multi Harvest
+        ["Atlantic Giant Pumpkin"] = 9999,
+        ["Amber Cranberry"] = 9999,
         ["Maple Dragon Fruit"] = 1,
-
-        --Epic--
-        ["Maple Green Bean"] = 1,
-        ["Maple Mushroom"] = 999,
-
-        --Rare--
-        ["Maple Bamboo"] = 999,
-        ["Maple Pineapple"] = 2,
-        ["Maple Cactus"] = 2,
-        ["Maple Corn"] = 5,
-
-        --Uncommon--
-        ["Maple Apple"] = 2,
-        ["Maple Tomato"] = 2,
-        ["Maple Tulip"] = 999,
-
-        ["Maple Blueberry"] = 2,
-        ["Maple Strawberry"] = 2,
-        ["Maple Carrot"] = 999,
+        ["Maple Acorn"] = 3,
+        ["Maple Cherry"] = 1,
+        ["Maple Sunflower"] = 1,
+        ["Maple Venus Fly Trap"] = 1,
+        ["Maple Pomegranate"] = 1,
+        ["Maple Poison Apple"] = 1,
+        ["Maple Venom Spitter"] = 1,
+        ["Conifer Cone"] = 1,
     },
 
-    ["Favorite"] = {
-        ["Horned Melon"] = {},
+    ["Harvest Mutation Only"] = {
+        ["Atlantic Giant Pumpkin"] = {Multiplier = 2.0},
+        ["Maple Mushroom"] = {Mutation = true, Multiplier = 1.15, Mode = "All"},
+        ["Maple Dragon Fruit"] = {Mutation = true, Multiplier = 2.0, Mode = "All"},
+        ["Maple Acorn"] = {Mutation = true, Multiplier = 2.0, Mode = "All"},
+        ["Maple Cherry"] = {Mutation = true, Multiplier = 2.0, Mode = "All"},
+        ["Maple Sunflower"] = {Mutation = true, Multiplier = 2.0, Mode = "All"},
+        ["Maple Venus Fly Trap"] = {Mutation = true, Multiplier = 2.0, Mode = "All"},
+        ["Maple Pomegranate"] = {Mutation = true, Multiplier = 2.0, Mode = "All"},
+        ["Maple Poison Apple"] = {Mutation = true, Multiplier = 2.0, Mode = "All"},
+        ["Maple Venom Spitter"] = {Mutation = true, Multiplier = 2.0, Mode = "All"},
+        ["Conifer Cone"] = {Mutation = true, Multiplier = 2.0, Mode = "All"},
+        ["Amber Cranberry"] = {Mutation = true, Multiplier = 2.0, Mode = "All"},
     },
+    ["Auction"] = {
+        ["Min Sheckles"] = "500m",
+        ["Maple Cherry"] = {["Max Price"] = "2m"},
+        ["Maple Sunflower"] = {["Max Price"] = "5m"},
+        ["Maple Venus Fly Trap"] = {["Max Price"] = "7m"},
+        ["Maple Pomegranate"] = {["Max Price"] = "12m"},
+        ["Maple Poison Apple"] = {["Max Price"] = "25m"},
+        ["Maple Venom Spitter"] = {["Max Price"] = "30m"},
+        ["Conifer Cone"] = {["Max Price"] = "40m"},
+        ["Amber Cranberry"] = {["Max Price"] = "140m"},
+        ["Atlantic Giant Pumpkin"] = {["Max Price"] = "1m"},
+        ["Super Syrup Sprinkler"] = {["Max Price"] = "10m"},
+        ["Super Syrup Watering Can"] = {["Max Price"] = "10m"},
+        ["Shadow Dragon"] = {["Max Price"] = "100m"},
+    },
+    ["Favorite"] = {},
     ["Buy Pets"] = {
-        -- Uncommon
-        ["Dog"] = {Huge = 99, Rainbow = 99},
-        
-        -- Rare
-        ["Hedgehog"] = {Huge = 99, Rainbow = 99},
-        ["Turkey"] = {Normal = 6, Huge = 99, Rainbow = 99},
-        
-        -- Legendary
-        ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Swan"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
-        
-        -- Mythic
-        ["Fox"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Wolf"] = {Big = 99, Huge = 99, Rainbow = 99},
-        --["Fox"] = 999,
-        --["Wolf"] = 999,
-
-        -- Super
+        ["Turkey"] = {Normal = 6, Big = 6, Huge = 6, Rainbow = 6},
+        ["Swan"] = {Normal = 6, Big = 6, Huge = 6, Rainbow = 6},
+        ["Wolf"] = {Normal = 6, Big = 6, Huge = 6, Rainbow = 6},
         ["Shadow Dragon"] = 999,
     },
+    ["Equip Wolf At Night"] = true,
 
-    ["Equip Pets"] = {
-        --{"Wolf", 6, 1},
-        --{"Fox", 6, 2},
-        {"Swan", 6, 1, "Normal"},
-        {"Turkey", 6, 2, "Normal"},
+    ["Equip Pets"] = { -- Khong can ghi Wolf vao day nhe
+        { "Swan", 6, 1 },
+        { "Turkey", 6, 2 },
     },
+
+    ["Sell Pets"] = {},
 
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3,
     ["Unlock Pet Slots"] = 6,
 
     ["Auto Collect Seed Packs"] = true,
-	["Auto Use Cornucopia"] = true,
-	["Auto Use Egg"] = "All",
-	["Auto Use Seed Pack"] = "All",
+    ["Merge Eclipse Bloom"] = true,
+
     ["Gears"] = {
         ["Buy Gear"] = {
+            ["Trowel"] = 50,
             ["Syrup Watering Can"] = 50,
             ["Syrup Sprinkler"] = 50,
-            ["Super Syrup Sprinkler"] = 100,
-            ["Super Syrup Watering Can"] = 100,
-            --["Super Magic Mail"] = 999,
+            ["Super Syrup Watering Can"] = 50,
+            ["Super Syrup Sprinkler"] = 50,
         },
 
         ["Gears To Use"] = {
+            "Trowel",
             "Syrup Watering Can",
             "Syrup Sprinkler",
-            --"Super Syrup Sprinkler", -- Mua vòi si-rô siêu cấp
-            --"Super Syrup Watering Can", -- Mua bình tưới si-rô siêu cấp
-            --"Super Magic Mail",
         },
     },
-    ["Harvest Mutation Only"] = {
-        --"Bamboo", -- Chỉ thu hoạch Bamboo đột biến (bất kỳ loại đột biến nào)
-        --"Mushroom",
-        --"Rocket Pop",
+
+    ["Claim Mail"] = true,
+
+    -- Advanced
+    ["Auto Plant"] = true,
+    ["Limit Auto Plant"] = 800,
+
+    ["Blacklist Seed"] = {
+        "Rainbow",
+        "Maple Strawberry",
+        "Maple Blueberry",
+        "Maple Tomato",
+        "Maple Apple",
+        "Maple Corn",
+        "Maple Cactus",
+        "Maple Pineapple",
+        "Maple Green Bean",
+        "Maple Banana",
+        "Maple Grape",
+        "Maple Coconut",
+        "Maple Mango",
+        "Amber Cranberry",
+        "Atlantic Giant Pumpkin"
     },
-    ["Auto Plant"] = false,
-    ["Limit Auto Plant"] = 700,
 
     ["Blacklist Shovel"] = {
-        "Gold",
-        "Mega",
         "Rainbow",
-        "Amber Cranberry",
-        "Atlantic Giant Pumpkin",
-        "Conifer Cone",
-        "Maple Venom Spitter",
-        "Maple Venus Fly Trap",
-        "Maple Poison Apple",
-        "Maple Pomegranate",
-
-        --Legendary--
-        "Maple Cherry",
-        "Maple Dragon Fruit",
-
-        --Epic--
-        "Maple Green Bean",
-        "Maple Mushroom",
-
-        --Rare--
-        "Maple Bamboo",
-        --"Maple Pineapple",
-        --"Maple Cactus",
-        --"Maple Corn",
-
-        --Uncommon--
-        --"Maple Apple",
-        --"Maple Tomato",
-        "Maple Tulip",
-
-        --"Maple Blueberry",
-        --"Maple Strawberry",
+		"Mega",
+		"Gold",
         "Maple Carrot",
+        "Maple Tulip",
+        "Maple Bamboo",
+        "Maple Mushroom",
+        "Maple Dragon Fruit",
+        "Maple Acorn",
+        "Maple Cherry",
+        "Maple Sunflower",
+        "Maple Venus Fly Trap",
+        "Maple Pomegranate",
+        "Maple Poison Apple",
+        "Maple Venom Spitter",
+        "Conifer Cone",
+        "Amber Cranberry",
+        "Atlantic Giant Pumpkin"
     },
 
     ["Shovel Plant Once"] = {
-        --Rare--
-        --"Maple Bamboo",
-        --"Maple Pineapple",
-        --"Maple Cactus",
-       -- "Maple Corn",
-
-        --Uncommon--
-        --"Maple Apple",
-        --"Maple Tomato",
-        --"Maple Tulip",
-
-        --"Maple Blueberry",
-        --"Maple Strawberry",
-        --"Maple Carrot",
+        "Maple Strawberry",
+        "Maple Blueberry",
+        "Maple Tomato",
+        "Maple Apple",
+        "Maple Corn",
+        "Maple Cactus",
+        "Maple Pineapple",
+        "Maple Green Bean",
+        "Maple Banana",
+        "Maple Grape",
+        "Maple Coconut",
+        "Maple Mango"
     },
 
-    ["Blacklist Seed"] = {
-        --"Mega",
-        "Rainbow",
-        "Amber Cranberry",
-        "Atlantic Giant Pumpkin",
-        "Conifer Cone",
-        --"Maple Venom Spitter",
-        --"Maple Venus Fly Trap",
-        --"Maple Poison Apple",
-        --"Maple Pomegranate",
-
-        --Legendary--
-        --"Maple Cherry",
-        --"Maple Dragon Fruit",
-
-        --Epic--
-        --"Maple Green Bean",
-        "Maple Mushroom",
-
-        --Rare--
-        "Maple Bamboo",
-        --"Maple Pineapple",
-        --"Maple Cactus",
-       -- "Maple Corn",
-
-        --Uncommon--
-        --"Maple Apple",
-        --"Maple Tomato",
-        --"Maple Tulip",
-
-        --"Maple Blueberry",
-        --"Maple Strawberry",
-        --"Maple Carrot",
-    },
+    ["World"] = "Fall Harvest"
 }
