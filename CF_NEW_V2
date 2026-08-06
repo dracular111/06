@@ -15,10 +15,10 @@ getgenv().UserConfig = {
         --["Amber Cranberry"] = 10,
         --["Atlantic Giant Pumpkin"] = 999,
         --["Conifer Cone"] = 20,
-        --["Maple Venom Spitter"] = 50,
-        --["Maple Venus Fly Trap"] = 20,
-        --["Maple Poison Apple"] = 30,  
-        --["Maple Pomegranate"] = 10,
+        ["Maple Venom Spitter"] = 50,
+        ["Maple Venus Fly Trap"] = 20,
+        ["Maple Poison Apple"] = 30,  
+        ["Maple Pomegranate"] = 10,
         --Legendary--
         ["Maple Cherry"] = 40,
         ["Maple Dragon Fruit"] = 30,
@@ -47,10 +47,10 @@ getgenv().UserConfig = {
         --Legendary--
 		["Amber Cranberry"] = 10,
 		["Atlantic Giant Pumpkin"] = 10,
-        ["Conifer Cone"] = 20,
-        ["Maple Venom Spitter"] = 5,
-        ["Maple Venus Fly Trap"] = 5,
-        ["Maple Poison Apple"] = 5,  
+        --["Conifer Cone"] = 20,
+        --["Maple Venom Spitter"] = 5,
+        --["Maple Venus Fly Trap"] = 5,
+        --["Maple Poison Apple"] = 5,  
         --["Maple Pomegranate"] = 10,
         ["Maple Cherry"] = 1,
         ["Maple Dragon Fruit"] = 1,
@@ -112,7 +112,9 @@ getgenv().UserConfig = {
     ["Unlock Pet Slots"] = 6,
 
     ["Auto Collect Seed Packs"] = true,
-
+	["Auto Use Cornucopia"] = true,
+	["Auto Use Egg"] = "All",
+	["Auto Use Seed Pack"] = "All",
     ["Gears"] = {
         ["Buy Gear"] = {
             ["Syrup Watering Can"] = 50,
