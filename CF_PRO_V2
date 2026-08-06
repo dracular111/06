@@ -123,6 +123,7 @@ getgenv().UserConfig = {
         },
 
         ["Gears To Use"] = {
+			["Harp"] = {["Min Sheckles"] = "30m"},
             "Syrup Watering Can",
             "Syrup Sprinkler",
             --"Super Syrup Sprinkler", -- Mua vòi si-rô siêu cấp
