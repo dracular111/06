@@ -127,9 +127,6 @@ getgenv().UserConfig = {
     },
 
     ["Blacklist Shovel"] = {
-        "Rainbow",
-		"Mega",
-		"Gold",
         "Maple Carrot",
         "Maple Tulip",
         "Maple Bamboo",
