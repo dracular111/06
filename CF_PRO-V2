@@ -26,7 +26,7 @@ getgenv().UserConfig = {
         ["Maple Pomegranate"] = 999,
         ["Maple Poison Apple"] = 999,
         ["Maple Venom Spitter"] = 999,
-        ["Conifer Cone"] = 9999,
+        --["Conifer Cone"] = 9999,
     },
 
     ["Limit Buy Seed"] = {
@@ -139,6 +139,7 @@ getgenv().UserConfig = {
         "Maple Grape",
         "Maple Coconut",
         "Maple Mango",
+        "Conifer Cone",
         "Amber Cranberry",
         --"Atlantic Giant Pumpkin"
     },
