@@ -1,7 +1,7 @@
 return {
-    "Claw12HazeT135446",
-    "LavaKOFuryOOVoid1325",
-    "XzPhoenix0QLuckyozX1",
-    "XzAcecTVenatorXTShif",
-    "RogueLaBlazeM1876",
+    "Xz_NightfallFnBlast8",
+    "PlayzNlDragont138938",
+    "ThornlOAshenN1540",
+    "XzTurbokWHeroAzX1995",
+    "XzRiftsUSynth4zX1168",
 }
