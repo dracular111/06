@@ -9,7 +9,7 @@ getgenv().UserConfig = {
     ["Limit Plant Seed"] = {
         --Mythic--
         ["Gold"] = 999,
-        ["Mega"] = 999,
+        --["Mega"] = 999,
         ["Rainbow"] = 999,
         ["Maple Carrot"] = 50,
         ["Maple Tulip"] = 50,
