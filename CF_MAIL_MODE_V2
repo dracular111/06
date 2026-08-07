@@ -20,12 +20,12 @@ getgenv().MailConfig = {
         ["Pet"] = {
             ["Dog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Hedgehog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Turkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Turkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Squirrel"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Swan"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Swan"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
 
             ["Fox"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Wolf"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Wolf"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
         },
 
