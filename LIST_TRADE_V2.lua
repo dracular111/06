@@ -51,7 +51,6 @@ return {
     --"GlitchfxLightX1321",
     
     --List trade 1 lần
-    "Xz_NightfallFnBlast8",
     "PlayzNlDragont138938",
     "ThornlOAshenN1540",
     "XzTurbokWHeroAzX1995",
