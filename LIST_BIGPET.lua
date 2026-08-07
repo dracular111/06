@@ -1,4 +1,4 @@
 return {
-    "XzViraliuStaryuCircu",
-    "XzNightfalluULight0z",
+    --"XzViraliuStaryuCircu",
+    --"XzNightfalluULight0z",
 }
