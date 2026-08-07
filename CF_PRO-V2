@@ -104,7 +104,7 @@ getgenv().UserConfig = {
 
     ["Gears"] = {
         ["Buy Gear"] = {
-            ["Harp"] = 5, -- Mua đàn Harp
+            ["Harp"] = 10, -- Mua đàn Harp
             ["Trowel"] = 50,
             ["Syrup Watering Can"] = 50,
             ["Syrup Sprinkler"] = 50,
