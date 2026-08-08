@@ -104,7 +104,7 @@ getgenv().UserConfig = {
 
     ["Gears"] = {
         ["Buy Gear"] = {
-            ["Harp"] = 10, -- Mua đàn Harp
+            ["Harp"] = 20, -- Mua đàn Harp
             ["Trowel"] = 50,
             ["Syrup Watering Can"] = 50,
             ["Syrup Sprinkler"] = 50,
@@ -149,6 +149,11 @@ getgenv().UserConfig = {
         "Maple Tulip",
         "Maple Bamboo",
         "Maple Mushroom",
+        ["Maple Mango"] = {"Rainbow", "Gold"},
+        ["Maple Coconut"] = {"Rainbow", "Gold"},
+        ["Maple Grape"] = {"Rainbow", "Gold"},
+        ["Maple Green Bean"] = {"Rainbow", "Gold"},
+        ["Maple Banana"] = {"Rainbow", "Gold"},
         "Maple Dragon Fruit",
         "Maple Acorn",
         "Maple Cherry",
