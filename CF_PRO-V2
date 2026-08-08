@@ -46,8 +46,8 @@ getgenv().UserConfig = {
         ["Maple Venus Fly Trap"] = 1,
         ["Maple Pomegranate"] = 1,
         ["Maple Poison Apple"] = 1,
-        ["Maple Venom Spitter"] = 1,
-        ["Conifer Cone"] = 1,
+        ["Maple Venom Spitter"] = 99,
+        ["Conifer Cone"] = 99,
     },
 
     ["Harvest Mutation Only"] = {
