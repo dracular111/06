@@ -2,7 +2,7 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 getgenv().UserConfig = {
     ["Auto Double Or Nothing"] = false,
     ["Double Or Nothing Target Wins"] = 1,
-    ["FPS Cap"] = 5,
+    ["FPS Cap"] = 3,
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
 
