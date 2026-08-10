@@ -115,8 +115,6 @@ getgenv().UserConfig = {
         ["Gears To Use"] = {
             ["Harp"] = {["Min Sheckles"] = "170m"},
             "Trowel",
-            ["Super Syrup Watering Can"] = {["Min Sheckles"] = "170m"},
-            ["Syrup Sprinkler"] = {["Min Sheckles"] = "170m"},
         },
     },
 
