@@ -2,15 +2,31 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 getgenv().UserConfig = {
     ["Auto Double Or Nothing"] = false,
     ["Double Or Nothing Target Wins"] = 1,
-    ["FPS Cap"] = 5,
+    ["FPS Cap"] = 4,
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
 
     ["Limit Plant Seed"] = {
+        --Mythic--
+        ["Gold"] = 999,
+        --["Mega"] = 999,
+        ["Rainbow"] = 999,
         ["Maple Carrot"] = 50,
         ["Maple Tulip"] = 50,
         ["Maple Bamboo"] = 50,
         ["Maple Mushroom"] = 100,
+        -- Multi Harvest
+        ["Atlantic Giant Pumpkin"] = 15,
+        --["Amber Cranberry"] = 9999,
+        ["Maple Dragon Fruit"] = 9999,
+        ["Maple Acorn"] = 9999,
+        ["Maple Cherry"] = 9999,
+        ["Maple Sunflower"] = 99999,
+        ["Maple Venus Fly Trap"] = 999,
+        ["Maple Pomegranate"] = 999,
+        ["Maple Poison Apple"] = 999,
+        ["Maple Venom Spitter"] = 999,
+        --["Conifer Cone"] = 9999,
     },
 
     ["Limit Buy Seed"] = {
@@ -24,14 +40,14 @@ getgenv().UserConfig = {
         ["Atlantic Giant Pumpkin"] = 9999,
         ["Amber Cranberry"] = 9999,
         ["Maple Dragon Fruit"] = 1,
-        ["Maple Acorn"] = 3,
+        ["Maple Acorn"] = 1,
         ["Maple Cherry"] = 1,
         ["Maple Sunflower"] = 1,
         ["Maple Venus Fly Trap"] = 1,
         ["Maple Pomegranate"] = 1,
         ["Maple Poison Apple"] = 1,
-        ["Maple Venom Spitter"] = 1,
-        ["Conifer Cone"] = 1,
+        ["Maple Venom Spitter"] = 99,
+        ["Conifer Cone"] = 99,
     },
 
     ["Harvest Mutation Only"] = {
@@ -59,8 +75,8 @@ getgenv().UserConfig = {
         ["Conifer Cone"] = {["Max Price"] = "40m"},
         ["Amber Cranberry"] = {["Max Price"] = "140m"},
         ["Atlantic Giant Pumpkin"] = {["Max Price"] = "1m"},
-        ["Super Syrup Sprinkler"] = {["Max Price"] = "10m"},
-        ["Super Syrup Watering Can"] = {["Max Price"] = "10m"},
+        --["Super Syrup Sprinkler"] = {["Max Price"] = "10m"},
+        -["Super Syrup Watering Can"] = {["Max Price"] = "10m"},
         ["Shadow Dragon"] = {["Max Price"] = "100m"},
     },
     ["Favorite"] = {},
@@ -88,6 +104,7 @@ getgenv().UserConfig = {
 
     ["Gears"] = {
         ["Buy Gear"] = {
+            ["Harp"] = 100, -- Mua đàn Harp
             ["Trowel"] = 50,
             ["Syrup Watering Can"] = 50,
             ["Syrup Sprinkler"] = 50,
@@ -96,6 +113,7 @@ getgenv().UserConfig = {
         },
 
         ["Gears To Use"] = {
+            ["Harp"] = {["Min Sheckles"] = "170m"},
             "Trowel",
             "Syrup Watering Can",
             "Syrup Sprinkler",
@@ -105,11 +123,10 @@ getgenv().UserConfig = {
     ["Claim Mail"] = true,
 
     -- Advanced
-    ["Auto Plant"] = true,
+    ["Auto Plant"] = false,
     ["Limit Auto Plant"] = 800,
 
     ["Blacklist Seed"] = {
-        "Rainbow",
         "Maple Strawberry",
         "Maple Blueberry",
         "Maple Tomato",
@@ -122,8 +139,10 @@ getgenv().UserConfig = {
         "Maple Grape",
         "Maple Coconut",
         "Maple Mango",
+        "Conifer Cone",
+        "Maple Venom Spitter",
         "Amber Cranberry",
-        "Atlantic Giant Pumpkin"
+        --"Atlantic Giant Pumpkin"
     },
 
     ["Blacklist Shovel"] = {
@@ -131,6 +150,11 @@ getgenv().UserConfig = {
         "Maple Tulip",
         "Maple Bamboo",
         "Maple Mushroom",
+        --["Maple Mango"] = {"Rainbow", "Gold"},
+        --["Maple Coconut"] = {"Rainbow", "Gold"},
+        --["Maple Grape"] = {"Rainbow", "Gold"},
+        --["Maple Green Bean"] = {"Rainbow", "Gold"},
+        --["Maple Banana"] = {"Rainbow", "Gold"},
         "Maple Dragon Fruit",
         "Maple Acorn",
         "Maple Cherry",
