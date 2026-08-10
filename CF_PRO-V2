@@ -16,7 +16,7 @@ getgenv().UserConfig = {
         ["Maple Bamboo"] = 50,
         ["Maple Mushroom"] = 100,
         -- Multi Harvest
-        ["Atlantic Giant Pumpkin"] = 10,
+        ["Atlantic Giant Pumpkin"] = 5,
         --["Amber Cranberry"] = 9999,
         ["Maple Dragon Fruit"] = 9999,
         ["Maple Acorn"] = 9999,
