@@ -183,5 +183,5 @@ getgenv().UserConfig = {
         "Maple Mango"
     },
 
-    ["World"] = "Fall Harvest"
+    --["World"] = "Fall Harvest"
 }
