@@ -64,6 +64,6 @@ return {
     "HollowoOCrimsons1618",
     "Thunderz8BlizzardN10",
     "XzChaosFLDelta4zX66",
-    "ShifterScCyber1",
+    --"ShifterScCyber1",
     "JellyiTSlime3TFrost1",
 }
