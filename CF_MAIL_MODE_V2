@@ -23,7 +23,7 @@ getgenv().MailConfig = {
     ["Items To Mail"] = {
         ["Pet"] = {
             --["Dog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Hedgehog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
+            ["Hedgehog"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
             --["Turkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             --["Squirrel"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
             --["Swan"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
