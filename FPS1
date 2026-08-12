@@ -29,7 +29,7 @@ task.wait(2)
 --================================--
 
 local DAY_FPS = 3       -- 07:00 - 18:59 GMT+7
-local NIGHT_FPS = 4     -- 19:00 - 06:59 GMT+7
+local NIGHT_FPS = 3     -- 19:00 - 06:59 GMT+7
 
 local FPS = NIGHT_FPS
 
