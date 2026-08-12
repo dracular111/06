@@ -84,7 +84,7 @@ getgenv().UserConfig = {
         ["Turkey"] = {Normal = 6, Big = 6, Huge = 6, Rainbow = 6},
         ["Swan"] = {Normal = 6, Big = 6, Huge = 6, Rainbow = 6},
         ["Wolf"] = {Normal = 6, Big = 6, Huge = 6, Rainbow = 6},
-        ["Fox"] = {Huge = 999, Rainbow = 6},
+        ["Fox"] = {Huge = 99, Rainbow = 99, ["Min Sheckles"] = "175m"},
         ["Hedgehog"] = {Huge = 999, Rainbow = 6},
         ["Shadow Dragon"] = {Normal = 999, Big = 99, Huge = 99, Rainbow = 99, ["Min Sheckles"] = "175m"},
     },
