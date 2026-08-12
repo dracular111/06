@@ -86,7 +86,7 @@ getgenv().UserConfig = {
         ["Wolf"] = {Normal = 6, Big = 6, Huge = 6, Rainbow = 6},
         ["Fox"] = {Huge = 999, Rainbow = 6},
         ["Hedgehog"] = {Huge = 999, Rainbow = 6},
-        ["Shadow Dragon"] = 999,
+        ["Shadow Dragon"] = {["Limit"] = 100, ["Min Sheckles"] = "175m"},
     },
     ["Equip Wolf At Night"] = true,
 
