@@ -9,7 +9,7 @@ getgenv().UserConfig = {
     ["Limit Plant Seed"] = {
         --Mythic--
         ["Gold"] = 999,
-        --["Mega"] = 999,
+        ["Mega"] = 999,
         ["Rainbow"] = 999,
         ["Carrot"] = 50,
         ["Tulip"] = 50,
@@ -59,7 +59,6 @@ getgenv().UserConfig = {
     },
 
     ["Harvest Mutation Only"] = {
-        --["Atlantic Giant Pumpkin"] = {Multiplier = 2.0},
         ["Mushroom"] = {Mutation = true, Multiplier = 1.15, Mode = "All"},
         ["Rocket Pop"] = {Mutation = true, Multiplier = 1.15, Mode = "All"},
         ["Dragon Fruit"] = {Mutation = true, Multiplier = 2.0, Mode = "All"},
