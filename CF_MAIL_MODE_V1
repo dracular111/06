@@ -33,18 +33,14 @@ getgenv().MailConfig = {
             ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
             ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
 
-            --["Bunny"] = {Normal = 1, To = LIST_PET_RAC},
-            --["Deer"] = {Normal = 2, To = LIST_PET_RAC},
-            --["Robin"] = {Normal = 1, To = LIST_PET_RAC},
+            ["Deer"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
+            ["Turtle"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
+            ["Bear"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
 
-            --["Bunny"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
-            --["Deer"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
             --["Robin"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
             --["Frog"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
             --["Owl"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
             --["Bee"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
-            --["Turtle"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
-            --["Bear"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
             --["Monkey"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
 
         },
