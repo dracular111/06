@@ -30,9 +30,6 @@ getgenv().MailConfig = {
             ["Wolf"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
             ["Swan"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
             ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
-            ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
-            ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
-            ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
         },
 
         ["Seed"] = {
