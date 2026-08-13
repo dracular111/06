@@ -63,8 +63,8 @@ getgenv().MailConfig = {
         },
 
         ["Gear"] = {
-            ["Super Sprinkler"] = {Amount = 1, To = LIST_TRADE},
-            ["Super Watering Can"] = {Amount = 1, To = LIST_TRADE},
+            ["Super Sprinkler"] = {Amount = 2, To = LIST_TRADE},
+            ["Super Watering Can"] = {Amount = 2, To = LIST_TRADE},
         },
     }
 }
