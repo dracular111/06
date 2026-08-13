@@ -6,8 +6,8 @@ local LIST_TRADE = loadstring(game:HttpGet(
     "https://raw.githubusercontent.com/dracular111/06/main/LIST_TRADE.lua"
 ))()
 
-local LIST_BIGPET = loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/dracular111/06/main/LIST_BIGPET.lua"
+local LIST_PET = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/dracular111/06/main/LIST_PET.lua"
 ))()
 
 local LIST_PET_RAC = loadstring(game:HttpGet(
@@ -23,30 +23,29 @@ getgenv().MailConfig = {
     ["Mail To Username"] = {},
     ["Items To Mail"] = {
         ["Pet"] = {
-            ["Unicorn"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
-            ["Golden Dragonfly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
-            ["Firefly"] = {Normal = 99, Big = 1, Huge = 1, Rainbow = 1, To = LIST_TRADE},
+            ["Unicorn"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
+            ["Golden Dragonfly"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
+            ["Firefly"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
 
-            ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzPix3lrCBac0nvzX118", "Shr3dY9Sparkj1470", "Claw1IOblivionI14732"}},
-            ["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzPix3lrCBac0nvzX118", "Shr3dY9Sparkj1470", "Claw1IOblivionI14732"}},
-            ["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 1, To = {"XzPix3lrCBac0nvzX118", "Shr3dY9Sparkj1470", "Claw1IOblivionI14732"}},
-            ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzPix3lrCBac0nvzX118", "Shr3dY9Sparkj1470", "Claw1IOblivionI14732"}},
-            ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"XzPix3lrCBac0nvzX118", "Shr3dY9Sparkj1470", "Claw1IOblivionI14732"}},
+            ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
+            ["Black Dragon"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
+            ["Ice Serpent"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
+            ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
+            ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = LIST_PET},
 
             --["Bunny"] = {Normal = 1, To = LIST_PET_RAC},
             --["Deer"] = {Normal = 2, To = LIST_PET_RAC},
-            --["Robin"] = {Normal = 1, To = {"StarHxBlockO119176", "Arrowl3Rogue73Neon16", "H3r0VqEch0X31561", "Blast01Primalp121774", "TurboRySaberQ46", "TurboriSparkt21", "AshenRZDuckCZScythe1", "Novar4DarkU"}},
-           
-            ["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Deer"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Robin"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Robin"] = {Normal = 1, To = LIST_PET_RAC},
 
-            ["Frog"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Owl"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Bee"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Turtle"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Bear"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
-            ["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = LIST_BIGPET},
+            --["Bunny"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
+            --["Deer"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
+            --["Robin"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
+            --["Frog"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
+            --["Owl"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
+            --["Bee"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
+            --["Turtle"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
+            --["Bear"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
+            --["Monkey"] = {Huge = 1, Rainbow = 1, To = LIST_PET},
 
         },
 
@@ -56,10 +55,9 @@ getgenv().MailConfig = {
             ["Dragon's Breath"] = {Amount = 1, To = LIST_TRADE},
             ["Sun Bloom"] = {Amount = 1, To = LIST_TRADE},
 
-            --["Hypno Bloom"] = {Amount = 2, To = LIST_TRADE},
+            --["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
             --["Moon Bloom"] = {Amount = 1, To = LIST_TRADE},
             --["Rocket Pop"] = {Amount = 1, To = LIST_TRADE},
-            ["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
             --["Fire Fern"] = {Amount = 1, To = LIST_TRADE},
             --["Pineapple"] = {Amount = 50, To = LIST_TRADE},
 
