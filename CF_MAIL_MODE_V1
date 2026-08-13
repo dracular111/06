@@ -55,8 +55,8 @@ getgenv().MailConfig = {
             ["Dragon's Breath"] = {Amount = 1, To = LIST_TRADE},
             ["Sun Bloom"] = {Amount = 1, To = LIST_TRADE},
 
-            --["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
-            --["Moon Bloom"] = {Amount = 1, To = LIST_TRADE},
+            ["Hypno Bloom"] = {Amount = 1, To = LIST_TRADE},
+            ["Moon Bloom"] = {Amount = 1, To = LIST_TRADE},
             --["Rocket Pop"] = {Amount = 1, To = LIST_TRADE},
             --["Fire Fern"] = {Amount = 1, To = LIST_TRADE},
             --["Pineapple"] = {Amount = 50, To = LIST_TRADE},
