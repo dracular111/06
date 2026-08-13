@@ -3,7 +3,7 @@ local LIST_NEW = loadstring(game:HttpGet(
 ))()
 
 local LIST_TRADE = loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/dracular111/06/main/LIST_TRADE.lua"
+    "https://raw.githubusercontent.com/dracular111/06/main/LIST_TRADE_V2.lua"
 ))()
 
 local LIST_PET = loadstring(game:HttpGet(
