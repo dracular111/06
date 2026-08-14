@@ -18,8 +18,8 @@ getgenv().UserConfig = {
         ["Rocket Pop"] = 50,
         -- Multi Harvest
         ["Fire Fern"] = 50,
-        ["Dragon Fruit"] = 50,
-        ["Acorn"] = 50,
+        ["Dragon Fruit"] = 40,
+        ["Acorn"] = 40,
         ["Cherry"] = 50,
         ["Sunflower"] = 50,
         --Mythic--
