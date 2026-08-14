@@ -9,7 +9,7 @@ getgenv().UserConfig = {
     ["Limit Plant Seed"] = {
         --Mythic--
         ["Gold"] = 999,
-        --["Mega"] = 999,
+        ["Mega"] = 999,
         ["Rainbow"] = 999,
         ["Carrot"] = 50,
         ["Tulip"] = 50,
@@ -17,11 +17,11 @@ getgenv().UserConfig = {
         ["Mushroom"] = 100,
         ["Rocket Pop"] = 50,
         -- Multi Harvest
-        ["Fire Fern"] = 40,
-        ["Dragon Fruit"] = 30,
-        ["Acorn"] = 30,
-        ["Cherry"] = 40,
-        ["Sunflower"] = 40,
+        ["Fire Fern"] = 50,
+        ["Dragon Fruit"] = 50,
+        ["Acorn"] = 50,
+        ["Cherry"] = 50,
+        ["Sunflower"] = 50,
         --Mythic--
         --["Dragon's Breath"] = 10,
         --["Hypno Bloom"] = 10,
@@ -175,7 +175,7 @@ getgenv().UserConfig = {
 
     ["Blacklist Seed"] = {
         --["Gold"] = 999,
-        ["Mega"] = 999,
+        --["Mega"] = 999,
         --["Rainbow"] = 999,
         "Strawberry",
         "Blueberry",
