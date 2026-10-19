@@ -1,3 +1,4 @@
+setfpscap(5)
 getgenv().UserConfig = {
     -- Auto Hop
     ["Enable Auto Hop"] = false,
